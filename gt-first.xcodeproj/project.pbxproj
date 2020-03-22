@@ -25,6 +25,7 @@
 		A98FEF8B2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF8A2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift */; };
 		A98FEF8D2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF8C2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift */; };
 		A98FEF8F2427CBCB0020E7C0 /* LoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF8E2427CBCB0020E7C0 /* LoaderProtocol.swift */; };
+		A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF912427CCD80020E7C0 /* APIManager.swift */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
 		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		A98FEF8A2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageContainerProtocol.swift; sourceTree = "<group>"; };
 		A98FEF8C2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageContainerPresenter.swift; sourceTree = "<group>"; };
 		A98FEF8E2427CBCB0020E7C0 /* LoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderProtocol.swift; sourceTree = "<group>"; };
+		A98FEF912427CCD80020E7C0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,6 +122,7 @@
 		A943CD2324270B2A0029B6B3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A98FEF902427CCC60020E7C0 /* APIManager */,
 				A943CD2524270BF70029B6B3 /* AppDelegate */,
 				A943CD3E242728E10029B6B3 /* Helpers */,
 				A943CD41242729380029B6B3 /* Models */,
@@ -256,6 +259,14 @@
 			children = (
 			);
 			path = Step3;
+			sourceTree = "<group>";
+		};
+		A98FEF902427CCC60020E7C0 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				A98FEF912427CCD80020E7C0 /* APIManager.swift */,
+			);
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 		A9E740FD2427BF2E00C18748 /* Extensions */ = {
@@ -414,6 +425,7 @@
 				A943CD1224270AD90029B6B3 /* ViewController.swift in Sources */,
 				A943CD44242729720029B6B3 /* EmergencyContactModel.swift in Sources */,
 				A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */,
+				A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */,
 				A98FEF8D2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift in Sources */,
 				A98FEF8B2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift in Sources */,
 			);
