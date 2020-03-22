@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		A943CD44242729720029B6B3 /* EmergencyContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943CD43242729720029B6B3 /* EmergencyContactModel.swift */; };
 		A943CD4624272A320029B6B3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A943CD4524272A320029B6B3 /* Colors.xcassets */; };
 		A943CD4824272AC30029B6B3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943CD4724272AC30029B6B3 /* Colors.swift */; };
+		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
 		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		A943CD43242729720029B6B3 /* EmergencyContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactModel.swift; sourceTree = "<group>"; };
 		A943CD4524272A320029B6B3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		A943CD4724272AC30029B6B3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,8 +154,8 @@
 		A943CD3E242728E10029B6B3 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				A943CD3F242728FF0029B6B3 /* String+Localized.swift */,
 				A943CD4724272AC30029B6B3 /* Colors.swift */,
+				A9E740FD2427BF2E00C18748 /* Extensions */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -174,6 +176,15 @@
 			path = EmergencyContact;
 			sourceTree = "<group>";
 		};
+		A9E740FD2427BF2E00C18748 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A943CD3F242728FF0029B6B3 /* String+Localized.swift */,
+				A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DC80EBF052EC6746B7CA7B7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,7 +199,6 @@
 				92A12A19CE697800430E0ACD /* Pods-gt-first.debug.xcconfig */,
 				57AADA9CB56A55BAB16041D1 /* Pods-gt-first.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -313,6 +323,7 @@
 			files = (
 				A943CD40242728FF0029B6B3 /* String+Localized.swift in Sources */,
 				A943CD4824272AC30029B6B3 /* Colors.swift in Sources */,
+				A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */,
 				A943CD1224270AD90029B6B3 /* ViewController.swift in Sources */,
 				A943CD44242729720029B6B3 /* EmergencyContactModel.swift in Sources */,
 				A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */,
