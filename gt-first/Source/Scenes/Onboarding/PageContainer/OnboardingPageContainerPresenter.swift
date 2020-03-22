@@ -26,7 +26,13 @@ class OnboardingPageContainerPresenter {
     }
     
     func prepareControllers() -> [UIViewController] {
-        return []
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Onboarding", bundle: nil)
+        
+        return [
+            storyBoard.instantiateViewController(withIdentifier: "OnboardingStep1View"),
+            storyBoard.instantiateViewController(withIdentifier: "OnboardingStep2View"),
+            storyBoard.instantiateViewController(withIdentifier: "OnboardingStep3View")
+        ]
     }
     
 }

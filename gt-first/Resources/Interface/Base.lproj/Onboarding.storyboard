@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Onboarding Page Container View Controller-->
         <scene sceneID="rZl-GB-K1D">
             <objects>
-                <viewController id="9d2-z8-umz" sceneMemberID="viewController">
+                <viewController id="9d2-z8-umz" customClass="OnboardingPageContainerViewController" customModule="gt_first" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KpM-Pj-Bi9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,9 +27,10 @@
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="wyg-el-26L">
                                         <rect key="frame" x="187.5" y="11.5" width="39" height="37"/>
+                                        <color key="pageIndicatorTintColor" red="0.87843728070000004" green="0.87842077019999998" blue="0.87843197579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </pageControl>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.74510318040000001" green="0.74508899449999999" blue="0.74509865050000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="wyg-el-26L" firstAttribute="centerY" secondItem="jTV-N8-kpn" secondAttribute="centerY" id="1F3-29-sBj"/>
                                     <constraint firstItem="wyg-el-26L" firstAttribute="centerX" secondItem="jTV-N8-kpn" secondAttribute="centerX" id="XSv-b1-JRn"/>
@@ -49,15 +50,63 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ycO-UQ-sPf"/>
                     </view>
+                    <connections>
+                        <outlet property="pageControl" destination="wyg-el-26L" id="7QO-xz-tyU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Oh-Bn-nag" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-7.2463768115942031" y="-98.4375"/>
         </scene>
+        <!--Onboarding Step1 View Controller-->
+        <scene sceneID="LQo-UK-jtA">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingStep1View" id="HVR-wF-ViW" customClass="OnboardingStep1ViewController" customModule="gt_first" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GQZ-KZ-YTR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Zio-90-kbC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YuX-gr-crz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7" y="593"/>
+        </scene>
+        <!--Onboarding Step2 View Controller-->
+        <scene sceneID="4OT-CK-zZ3">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingStep2View" id="GdO-GQ-bg0" customClass="OnboardingStep2ViewController" customModule="gt_first" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iOf-k4-pDw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="69h-tK-ivL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rmt-sD-ynJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="593"/>
+        </scene>
+        <!--Onboarding Step3 View Controller-->
+        <scene sceneID="RuL-RS-IGe">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingStep3View" id="jnt-dy-tIj" customClass="OnboardingStep3ViewController" customModule="gt_first" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tfc-RX-SbA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pIM-pd-67F"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dwu-CZ-Ygl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1510" y="593"/>
+        </scene>
         <!--Page View Controller-->
         <scene sceneID="53L-Gr-MnV">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="ChE-cD-HPg" customClass="PageViewController" customModule="gt_first" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ChE-cD-HPg" customClass="PageViewController" customModule="gt_first" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUu-8N-Ywq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="836" y="-98"/>
