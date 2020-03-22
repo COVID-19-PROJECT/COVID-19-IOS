@@ -15,10 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let storyboard: UIStoryboard = K.Storyboards.Splash.value
-        let controller: UIViewController = storyboard.instantiateInitialViewController() ?? UIViewController()
-        setRootViewController(controller: controller)
-        
         return true
     }
     
