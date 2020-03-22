@@ -26,7 +26,7 @@ class OnboardingPageContainerPresenter {
     }
     
     func prepareControllers() -> [UIViewController] {
-        let storyBoard: UIStoryboard = UIStoryboard(name: "Onboarding", bundle: nil)
+        let storyBoard: UIStoryboard = K.Storyboards.Onboarding.value
         
         return [
             storyBoard.instantiateViewController(withIdentifier: "OnboardingStep1View"),

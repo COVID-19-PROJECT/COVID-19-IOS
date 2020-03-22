@@ -170,8 +170,8 @@
 		A943CD262427258C0029B6B3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A98FEF992427EA510020E7C0 /* Main */,
 				A98FEF7C2427C5AA0020E7C0 /* Onboarding */,
-				A943CD1124270AD90029B6B3 /* ViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -188,11 +188,11 @@
 		A943CD3E242728E10029B6B3 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				11EBCEB12427E0B00037E79D /* Utilities */,
-				A98FEF7D2427C5E00020E7C0 /* Common */,
 				A943CD4724272AC30029B6B3 /* Colors.swift */,
-				A9E740FD2427BF2E00C18748 /* Extensions */,
+				A98FEF7D2427C5E00020E7C0 /* Common */,
 				11EBCEB42427E4500037E79D /* Constants.swift */,
+				A9E740FD2427BF2E00C18748 /* Extensions */,
+				11EBCEB12427E0B00037E79D /* Utilities */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -290,6 +290,14 @@
 				A98FEF912427CCD80020E7C0 /* APIManager.swift */,
 			);
 			path = APIManager;
+			sourceTree = "<group>";
+		};
+		A98FEF992427EA510020E7C0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A943CD1124270AD90029B6B3 /* ViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		A9E740FD2427BF2E00C18748 /* Extensions */ = {

@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             ? K.Storyboards.Onboarding.value
             : K.Storyboards.Main.value;
         window.rootViewController = board.instantiateInitialViewController()
+        window.makeKeyAndVisible()
         return true
     }
 
