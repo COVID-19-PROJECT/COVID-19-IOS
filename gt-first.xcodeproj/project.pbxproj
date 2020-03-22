@@ -180,8 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				A98FEFA024280E350020E7C0 /* Main */,
-				A98FEF992427EA510020E7C0 /* Splash */,
 				A98FEF7C2427C5AA0020E7C0 /* Onboarding */,
+				A98FEF992427EA510020E7C0 /* Splash */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";

@@ -26,9 +26,9 @@
 		<true/>
 	</dict>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>We need to know your location to find the nearest  point, and provide you a better user experience.</string>
+	<string>We need to know your location to find the nearest point, and provide you a better user experience.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need to know your location to find the nearest  point, and provide you a better user experience.</string>
+	<string>We need to know your location to find the nearest point, and provide you a better user experience.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
