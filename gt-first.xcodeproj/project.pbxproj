@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11EBCEB32427E0C20037E79D /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBCEB22427E0C20037E79D /* Storage.swift */; };
+		11EBCEB52427E4500037E79D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBCEB42427E4500037E79D /* Constants.swift */; };
 		A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943CD0D24270AD90029B6B3 /* AppDelegate.swift */; };
 		A943CD1224270AD90029B6B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943CD1124270AD90029B6B3 /* ViewController.swift */; };
 		A943CD1524270AD90029B6B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A943CD1324270AD90029B6B3 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11EBCEB22427E0C20037E79D /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		11EBCEB42427E4500037E79D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		57AADA9CB56A55BAB16041D1 /* Pods-gt-first.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.release.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.release.xcconfig"; sourceTree = "<group>"; };
 		92A12A19CE697800430E0ACD /* Pods-gt-first.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.debug.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.debug.xcconfig"; sourceTree = "<group>"; };
 		A943CD0A24270AD90029B6B3 /* gt-first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gt-first.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11EBCEB12427E0B00037E79D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				11EBCEB22427E0C20037E79D /* Storage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		A943CD0124270AD90029B6B3 = {
 			isa = PBXGroup;
 			children = (
@@ -170,9 +182,11 @@
 		A943CD3E242728E10029B6B3 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				11EBCEB12427E0B00037E79D /* Utilities */,
 				A98FEF7D2427C5E00020E7C0 /* Common */,
 				A943CD4724272AC30029B6B3 /* Colors.swift */,
 				A9E740FD2427BF2E00C18748 /* Extensions */,
+				11EBCEB42427E4500037E79D /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -397,11 +411,9 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gt-first/Pods-gt-first-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gt-first/Pods-gt-first-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -416,9 +428,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A98FEF832427C7010020E7C0 /* PageChangeProtocol.swift in Sources */,
+				11EBCEB32427E0C20037E79D /* Storage.swift in Sources */,
 				A943CD40242728FF0029B6B3 /* String+Localized.swift in Sources */,
 				A98FEF812427C6340020E7C0 /* PageViewController.swift in Sources */,
 				A98FEF892427C8950020E7C0 /* OnboardingPageContainerViewController.swift in Sources */,
+				11EBCEB52427E4500037E79D /* Constants.swift in Sources */,
 				A98FEF8F2427CBCB0020E7C0 /* LoaderProtocol.swift in Sources */,
 				A943CD4824272AC30029B6B3 /* Colors.swift in Sources */,
 				A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */,
