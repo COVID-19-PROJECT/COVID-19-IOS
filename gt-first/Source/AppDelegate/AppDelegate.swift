@@ -12,5 +12,26 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        let storyboard: UIStoryboard = K.Storyboards.Splash.value
+        let controller: UIViewController = storyboard.instantiateInitialViewController() ?? UIViewController()
+        setRootViewController(controller: controller)
+        
+        return true
+    }
+    
+    func setRootViewController(controller: UIViewController ) {
+        guard let window: UIWindow = window else { return }
+        
+        window.frame = UIScreen.main.bounds
+        window.rootViewController = controller
+        window.makeKeyAndVisible()
+        
+        UIView.transition(with: window, duration: 0.2, options: .transitionCrossDissolve, animations: nil) { completed in
+            
+        }
+    }
 
 }

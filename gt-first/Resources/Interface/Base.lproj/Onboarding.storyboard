@@ -65,13 +65,25 @@
                     <view key="view" contentMode="scaleToFill" id="GQZ-KZ-YTR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDs-hE-M1a">
+                                <rect key="frame" x="183" y="437.5" width="48" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="iDs-hE-M1a" firstAttribute="centerX" secondItem="GQZ-KZ-YTR" secondAttribute="centerX" id="9oh-29-pu8"/>
+                            <constraint firstItem="iDs-hE-M1a" firstAttribute="centerY" secondItem="GQZ-KZ-YTR" secondAttribute="centerY" id="hyE-If-p7w"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Zio-90-kbC"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YuX-gr-crz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7" y="593"/>
+            <point key="canvasLocation" x="-7.2463768115942031" y="592.63392857142856"/>
         </scene>
         <!--Onboarding Step2 View Controller-->
         <scene sceneID="4OT-CK-zZ3">
@@ -80,7 +92,19 @@
                     <view key="view" contentMode="scaleToFill" id="iOf-k4-pDw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzo-3C-i8p">
+                                <rect key="frame" x="182" y="437.5" width="50" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bzo-3C-i8p" firstAttribute="centerY" secondItem="iOf-k4-pDw" secondAttribute="centerY" id="N0U-hS-zaE"/>
+                            <constraint firstItem="bzo-3C-i8p" firstAttribute="centerX" secondItem="iOf-k4-pDw" secondAttribute="centerX" id="leg-gU-1OD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="69h-tK-ivL"/>
                     </view>
                 </viewController>
@@ -95,7 +119,19 @@
                     <view key="view" contentMode="scaleToFill" id="tfc-RX-SbA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twf-w3-OfG">
+                                <rect key="frame" x="182" y="437.5" width="50.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="twf-w3-OfG" firstAttribute="centerY" secondItem="tfc-RX-SbA" secondAttribute="centerY" id="C2c-kZ-m80"/>
+                            <constraint firstItem="twf-w3-OfG" firstAttribute="centerX" secondItem="tfc-RX-SbA" secondAttribute="centerX" id="c6g-cC-8Z7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pIM-pd-67F"/>
                     </view>
                 </viewController>

@@ -53,7 +53,7 @@ extension OnboardingPageContainerViewController: OnboardingPageContainerDelegate
 extension OnboardingPageContainerViewController: PageChangeProtocol {
     
     func pageChange(indexPage: Int) {
-        
+        pageControl.currentPage = indexPage
     }
     
 }

@@ -13,6 +13,7 @@ public struct K {
     enum Storyboards: String {
         case Main = "Main"
         case Onboarding = "Onboarding"
+        case Splash = "Splash"
         
         var value: UIStoryboard {
             return  UIStoryboard(name: self.rawValue, bundle: nil)
