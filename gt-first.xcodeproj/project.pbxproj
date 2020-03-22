@@ -26,6 +26,9 @@
 		A98FEF8D2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF8C2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift */; };
 		A98FEF8F2427CBCB0020E7C0 /* LoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF8E2427CBCB0020E7C0 /* LoaderProtocol.swift */; };
 		A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF912427CCD80020E7C0 /* APIManager.swift */; };
+		A98FEF942427D1D50020E7C0 /* OnboardingStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF932427D1D50020E7C0 /* OnboardingStep1ViewController.swift */; };
+		A98FEF962427D1E80020E7C0 /* OnboardingStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF952427D1E80020E7C0 /* OnboardingStep2ViewController.swift */; };
+		A98FEF982427D1FC0020E7C0 /* OnboardingStep3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF972427D1FC0020E7C0 /* OnboardingStep3ViewController.swift */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
 		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +59,9 @@
 		A98FEF8C2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageContainerPresenter.swift; sourceTree = "<group>"; };
 		A98FEF8E2427CBCB0020E7C0 /* LoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderProtocol.swift; sourceTree = "<group>"; };
 		A98FEF912427CCD80020E7C0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		A98FEF932427D1D50020E7C0 /* OnboardingStep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep1ViewController.swift; sourceTree = "<group>"; };
+		A98FEF952427D1E80020E7C0 /* OnboardingStep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep2ViewController.swift; sourceTree = "<group>"; };
+		A98FEF972427D1FC0020E7C0 /* OnboardingStep3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep3ViewController.swift; sourceTree = "<group>"; };
 		A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -243,6 +249,7 @@
 		A98FEF852427C7E60020E7C0 /* Step1 */ = {
 			isa = PBXGroup;
 			children = (
+				A98FEF932427D1D50020E7C0 /* OnboardingStep1ViewController.swift */,
 			);
 			path = Step1;
 			sourceTree = "<group>";
@@ -250,6 +257,7 @@
 		A98FEF862427C7EC0020E7C0 /* Step2 */ = {
 			isa = PBXGroup;
 			children = (
+				A98FEF952427D1E80020E7C0 /* OnboardingStep2ViewController.swift */,
 			);
 			path = Step2;
 			sourceTree = "<group>";
@@ -257,6 +265,7 @@
 		A98FEF872427C7F20020E7C0 /* Step3 */ = {
 			isa = PBXGroup;
 			children = (
+				A98FEF972427D1FC0020E7C0 /* OnboardingStep3ViewController.swift */,
 			);
 			path = Step3;
 			sourceTree = "<group>";
@@ -416,10 +425,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A98FEF832427C7010020E7C0 /* PageChangeProtocol.swift in Sources */,
+				A98FEF962427D1E80020E7C0 /* OnboardingStep2ViewController.swift in Sources */,
 				A943CD40242728FF0029B6B3 /* String+Localized.swift in Sources */,
 				A98FEF812427C6340020E7C0 /* PageViewController.swift in Sources */,
+				A98FEF942427D1D50020E7C0 /* OnboardingStep1ViewController.swift in Sources */,
 				A98FEF892427C8950020E7C0 /* OnboardingPageContainerViewController.swift in Sources */,
 				A98FEF8F2427CBCB0020E7C0 /* LoaderProtocol.swift in Sources */,
+				A98FEF982427D1FC0020E7C0 /* OnboardingStep3ViewController.swift in Sources */,
 				A943CD4824272AC30029B6B3 /* Colors.swift in Sources */,
 				A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */,
 				A943CD1224270AD90029B6B3 /* ViewController.swift in Sources */,

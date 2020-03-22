@@ -10,6 +10,8 @@ import UIKit
 
 class OnboardingPageContainerViewController: UIViewController {
     
+    @IBOutlet weak var pageControl: UIPageControl!
+    
     var pageController: PageViewController?
     private let presenter = OnboardingPageContainerPresenter(apiManager: APIManager.shared)
     
@@ -22,7 +24,9 @@ class OnboardingPageContainerViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
         if let viewController = segue.destination as? PageViewController, segue.identifier == "onboardingSegue" {
-            viewController.orderedViewControllers = presenter.prepareControllers()
+            let controllers: [UIViewController] = presenter.prepareControllers()
+            pageControl.numberOfPages = controllers.count
+            viewController.orderedViewControllers = controllers
             viewController.pageChangeDelegate = self
             pageController = viewController
         }
