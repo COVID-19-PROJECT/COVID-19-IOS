@@ -43,6 +43,8 @@
 		A9C5BF4C2428699900562CF3 /* EmergencyContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF4B2428699900562CF3 /* EmergencyContactsViewController.swift */; };
 		A9C5BF4E242869A400562CF3 /* EmergencyContactsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF4D242869A400562CF3 /* EmergencyContactsPresenter.swift */; };
 		A9C5BF50242869B300562CF3 /* EmergencyContactsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF4F242869B300562CF3 /* EmergencyContactsProtocol.swift */; };
+		A9C5BF5424286D5F00562CF3 /* EmergencyContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF5224286D5F00562CF3 /* EmergencyContactCell.swift */; };
+		A9C5BF5524286D5F00562CF3 /* EmergencyContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
 		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
@@ -90,6 +92,8 @@
 		A9C5BF4B2428699900562CF3 /* EmergencyContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsViewController.swift; sourceTree = "<group>"; };
 		A9C5BF4D242869A400562CF3 /* EmergencyContactsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsPresenter.swift; sourceTree = "<group>"; };
 		A9C5BF4F242869B300562CF3 /* EmergencyContactsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsProtocol.swift; sourceTree = "<group>"; };
+		A9C5BF5224286D5F00562CF3 /* EmergencyContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactCell.swift; sourceTree = "<group>"; };
+		A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmergencyContactCell.xib; sourceTree = "<group>"; };
 		A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -221,8 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				A943CD4724272AC30029B6B3 /* Colors.swift */,
-				A98FEF7D2427C5E00020E7C0 /* Common */,
 				11EBCEB42427E4500037E79D /* Constants.swift */,
+				A98FEF7D2427C5E00020E7C0 /* Common */,
 				A9E740FD2427BF2E00C18748 /* Extensions */,
 				11EBCEB12427E0B00037E79D /* Utilities */,
 			);
@@ -348,8 +352,18 @@
 				A9C5BF4D242869A400562CF3 /* EmergencyContactsPresenter.swift */,
 				A9C5BF4F242869B300562CF3 /* EmergencyContactsProtocol.swift */,
 				A9C5BF4B2428699900562CF3 /* EmergencyContactsViewController.swift */,
+				A9C5BF5124286CD600562CF3 /* Cells */,
 			);
 			path = EmergencyContacts;
+			sourceTree = "<group>";
+		};
+		A9C5BF5124286CD600562CF3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5BF5224286D5F00562CF3 /* EmergencyContactCell.swift */,
+				A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		A9E740FD2427BF2E00C18748 /* Extensions */ = {
@@ -451,6 +465,7 @@
 				A98FEF732427C33A0020E7C0 /* Onboarding.storyboard in Resources */,
 				A943CD1524270AD90029B6B3 /* Main.storyboard in Resources */,
 				A943CD3A2427288F0029B6B3 /* InfoPlist.strings in Resources */,
+				A9C5BF5524286D5F00562CF3 /* EmergencyContactCell.xib in Resources */,
 				A9C5BF4324285C5B00562CF3 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +538,7 @@
 				A943CD44242729720029B6B3 /* EmergencyContactModel.swift in Sources */,
 				A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */,
 				A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */,
+				A9C5BF5424286D5F00562CF3 /* EmergencyContactCell.swift in Sources */,
 				A98FEF8D2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift in Sources */,
 				A98FEF8B2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift in Sources */,
 				A9C5BF4E242869A400562CF3 /* EmergencyContactsPresenter.swift in Sources */,
