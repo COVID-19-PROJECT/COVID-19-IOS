@@ -40,6 +40,12 @@
 		A9C5BF4524285CB300562CF3 /* Stats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF4424285CB300562CF3 /* Stats.storyboard */; };
 		A9C5BF4724285CC400562CF3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF4624285CC400562CF3 /* Profile.storyboard */; };
 		A9C5BF4924285F6000562CF3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF4824285F6000562CF3 /* MainTabBarViewController.swift */; };
+		A9C5BF4C2428699900562CF3 /* EmergencyContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF4B2428699900562CF3 /* EmergencyContactsViewController.swift */; };
+		A9C5BF4E242869A400562CF3 /* EmergencyContactsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF4D242869A400562CF3 /* EmergencyContactsPresenter.swift */; };
+		A9C5BF50242869B300562CF3 /* EmergencyContactsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF4F242869B300562CF3 /* EmergencyContactsProtocol.swift */; };
+		A9C5BF5424286D5F00562CF3 /* EmergencyContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF5224286D5F00562CF3 /* EmergencyContactCell.swift */; };
+		A9C5BF5524286D5F00562CF3 /* EmergencyContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */; };
+		A9C5BF5724287AD400562CF3 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
 		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
@@ -49,7 +55,7 @@
 		11EBCEB42427E4500037E79D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		57AADA9CB56A55BAB16041D1 /* Pods-gt-first.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.release.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.release.xcconfig"; sourceTree = "<group>"; };
 		92A12A19CE697800430E0ACD /* Pods-gt-first.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.debug.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.debug.xcconfig"; sourceTree = "<group>"; };
-		A943CD0A24270AD90029B6B3 /* Stay Home - GT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stay Home - GT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A943CD0A24270AD90029B6B3 /* QuedateEnCasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuedateEnCasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A943CD0D24270AD90029B6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A943CD1124270AD90029B6B3 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		A943CD1424270AD90029B6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +90,12 @@
 		A9C5BF4424285CB300562CF3 /* Stats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stats.storyboard; sourceTree = "<group>"; };
 		A9C5BF4624285CC400562CF3 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		A9C5BF4824285F6000562CF3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		A9C5BF4B2428699900562CF3 /* EmergencyContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsViewController.swift; sourceTree = "<group>"; };
+		A9C5BF4D242869A400562CF3 /* EmergencyContactsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsPresenter.swift; sourceTree = "<group>"; };
+		A9C5BF4F242869B300562CF3 /* EmergencyContactsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsProtocol.swift; sourceTree = "<group>"; };
+		A9C5BF5224286D5F00562CF3 /* EmergencyContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactCell.swift; sourceTree = "<group>"; };
+		A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmergencyContactCell.xib; sourceTree = "<group>"; };
+		A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
 		A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,7 +133,7 @@
 		A943CD0B24270AD90029B6B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A943CD0A24270AD90029B6B3 /* Stay Home - GT.app */,
+				A943CD0A24270AD90029B6B3 /* QuedateEnCasa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,6 +206,7 @@
 		A943CD262427258C0029B6B3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A9C5BF4A2428697500562CF3 /* EmergencyContacts */,
 				A98FEFA024280E350020E7C0 /* Main */,
 				A98FEF7C2427C5AA0020E7C0 /* Onboarding */,
 				A98FEF992427EA510020E7C0 /* Splash */,
@@ -214,8 +227,8 @@
 			isa = PBXGroup;
 			children = (
 				A943CD4724272AC30029B6B3 /* Colors.swift */,
-				A98FEF7D2427C5E00020E7C0 /* Common */,
 				11EBCEB42427E4500037E79D /* Constants.swift */,
+				A98FEF7D2427C5E00020E7C0 /* Common */,
 				A9E740FD2427BF2E00C18748 /* Extensions */,
 				11EBCEB12427E0B00037E79D /* Utilities */,
 			);
@@ -335,11 +348,32 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		A9C5BF4A2428697500562CF3 /* EmergencyContacts */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5BF4D242869A400562CF3 /* EmergencyContactsPresenter.swift */,
+				A9C5BF4F242869B300562CF3 /* EmergencyContactsProtocol.swift */,
+				A9C5BF4B2428699900562CF3 /* EmergencyContactsViewController.swift */,
+				A9C5BF5124286CD600562CF3 /* Cells */,
+			);
+			path = EmergencyContacts;
+			sourceTree = "<group>";
+		};
+		A9C5BF5124286CD600562CF3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5BF5224286D5F00562CF3 /* EmergencyContactCell.swift */,
+				A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		A9E740FD2427BF2E00C18748 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				A943CD3F242728FF0029B6B3 /* String+Localized.swift */,
 				A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */,
+				A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -380,7 +414,7 @@
 			);
 			name = "gt-first";
 			productName = "gt-first";
-			productReference = A943CD0A24270AD90029B6B3 /* Stay Home - GT.app */;
+			productReference = A943CD0A24270AD90029B6B3 /* QuedateEnCasa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -434,6 +468,7 @@
 				A98FEF732427C33A0020E7C0 /* Onboarding.storyboard in Resources */,
 				A943CD1524270AD90029B6B3 /* Main.storyboard in Resources */,
 				A943CD3A2427288F0029B6B3 /* InfoPlist.strings in Resources */,
+				A9C5BF5524286D5F00562CF3 /* EmergencyContactCell.xib in Resources */,
 				A9C5BF4324285C5B00562CF3 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,9 +522,11 @@
 			files = (
 				A98FEF832427C7010020E7C0 /* PageChangeProtocol.swift in Sources */,
 				11EBCEB32427E0C20037E79D /* Storage.swift in Sources */,
+				A9C5BF50242869B300562CF3 /* EmergencyContactsProtocol.swift in Sources */,
 				A9C5BF4924285F6000562CF3 /* MainTabBarViewController.swift in Sources */,
 				A98FEF9D242807D80020E7C0 /* SplashPresenter.swift in Sources */,
 				A98FEF962427D1E80020E7C0 /* OnboardingStep2ViewController.swift in Sources */,
+				A9C5BF4C2428699900562CF3 /* EmergencyContactsViewController.swift in Sources */,
 				A943CD40242728FF0029B6B3 /* String+Localized.swift in Sources */,
 				A98FEF812427C6340020E7C0 /* PageViewController.swift in Sources */,
 				A98FEF942427D1D50020E7C0 /* OnboardingStep1ViewController.swift in Sources */,
@@ -501,11 +538,14 @@
 				A943CD4824272AC30029B6B3 /* Colors.swift in Sources */,
 				A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */,
 				A943CD1224270AD90029B6B3 /* SplashViewController.swift in Sources */,
+				A9C5BF5724287AD400562CF3 /* UIView+Layer.swift in Sources */,
 				A943CD44242729720029B6B3 /* EmergencyContactModel.swift in Sources */,
 				A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */,
 				A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */,
+				A9C5BF5424286D5F00562CF3 /* EmergencyContactCell.swift in Sources */,
 				A98FEF8D2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift in Sources */,
 				A98FEF8B2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift in Sources */,
+				A9C5BF4E242869A400562CF3 /* EmergencyContactsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,7 +726,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gt.quedateencasa;
-				PRODUCT_NAME = "Stay Home - GT";
+				PRODUCT_NAME = QuedateEnCasa;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -705,7 +745,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gt.quedateencasa;
-				PRODUCT_NAME = "Stay Home - GT";
+				PRODUCT_NAME = QuedateEnCasa;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
