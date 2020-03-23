@@ -35,6 +35,11 @@
 		A98FEF9D242807D80020E7C0 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF9C242807D80020E7C0 /* SplashPresenter.swift */; };
 		A98FEF9F242807ED0020E7C0 /* SplashProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEF9E242807ED0020E7C0 /* SplashProtocol.swift */; };
 		A98FEFA224280E450020E7C0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FEFA124280E450020E7C0 /* MainViewController.swift */; };
+		A9C5BF3F24285C0700562CF3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF3E24285C0700562CF3 /* Home.storyboard */; };
+		A9C5BF4124285C3500562CF3 /* EmergencyContact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF4024285C3500562CF3 /* EmergencyContact.storyboard */; };
+		A9C5BF4324285C5B00562CF3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF4224285C5B00562CF3 /* Login.storyboard */; };
+		A9C5BF4524285CB300562CF3 /* Stats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF4424285CB300562CF3 /* Stats.storyboard */; };
+		A9C5BF4724285CC400562CF3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF4624285CC400562CF3 /* Profile.storyboard */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
 		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +79,11 @@
 		A98FEF9C242807D80020E7C0 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
 		A98FEF9E242807ED0020E7C0 /* SplashProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProtocol.swift; sourceTree = "<group>"; };
 		A98FEFA124280E450020E7C0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A9C5BF3E24285C0700562CF3 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		A9C5BF4024285C3500562CF3 /* EmergencyContact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmergencyContact.storyboard; sourceTree = "<group>"; };
+		A9C5BF4224285C5B00562CF3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A9C5BF4424285CB300562CF3 /* Stats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stats.storyboard; sourceTree = "<group>"; };
+		A9C5BF4624285CC400562CF3 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -160,10 +170,15 @@
 		A943CD2424270B590029B6B3 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				A9C5BF4024285C3500562CF3 /* EmergencyContact.storyboard */,
+				A9C5BF3E24285C0700562CF3 /* Home.storyboard */,
 				A943CD1824270ADC0029B6B3 /* LaunchScreen.storyboard */,
+				A9C5BF4224285C5B00562CF3 /* Login.storyboard */,
 				A943CD1324270AD90029B6B3 /* Main.storyboard */,
 				A98FEF752427C33A0020E7C0 /* Onboarding.storyboard */,
+				A9C5BF4624285CC400562CF3 /* Profile.storyboard */,
 				A98FEF9A242807530020E7C0 /* Splash.storyboard */,
+				A9C5BF4424285CB300562CF3 /* Stats.storyboard */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -410,11 +425,16 @@
 				A943CD1A24270ADC0029B6B3 /* LaunchScreen.storyboard in Resources */,
 				A943CD30242727B30029B6B3 /* Localizable.strings in Resources */,
 				A943CD1724270ADC0029B6B3 /* Assets.xcassets in Resources */,
+				A9C5BF3F24285C0700562CF3 /* Home.storyboard in Resources */,
 				A98FEF9B242807530020E7C0 /* Splash.storyboard in Resources */,
+				A9C5BF4724285CC400562CF3 /* Profile.storyboard in Resources */,
+				A9C5BF4124285C3500562CF3 /* EmergencyContact.storyboard in Resources */,
+				A9C5BF4524285CB300562CF3 /* Stats.storyboard in Resources */,
 				A943CD4624272A320029B6B3 /* Colors.xcassets in Resources */,
 				A98FEF732427C33A0020E7C0 /* Onboarding.storyboard in Resources */,
 				A943CD1524270AD90029B6B3 /* Main.storyboard in Resources */,
 				A943CD3A2427288F0029B6B3 /* InfoPlist.strings in Resources */,
+				A9C5BF4324285C5B00562CF3 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
