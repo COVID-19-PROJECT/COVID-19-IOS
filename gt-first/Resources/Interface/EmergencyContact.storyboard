@@ -15,7 +15,19 @@
                     <view key="view" contentMode="scaleToFill" id="iPe-rB-aVU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yPa-fs-w2K">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="t6h-mk-amF" firstAttribute="trailing" secondItem="yPa-fs-w2K" secondAttribute="trailing" id="B6d-XX-YCd"/>
+                            <constraint firstItem="yPa-fs-w2K" firstAttribute="top" secondItem="t6h-mk-amF" secondAttribute="top" id="C6E-gB-aUm"/>
+                            <constraint firstItem="yPa-fs-w2K" firstAttribute="leading" secondItem="t6h-mk-amF" secondAttribute="leading" id="Hsb-Fn-wVn"/>
+                            <constraint firstItem="t6h-mk-amF" firstAttribute="bottom" secondItem="yPa-fs-w2K" secondAttribute="bottom" id="NiV-eS-0xv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="t6h-mk-amF"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="bookmark" catalog="system" id="NwD-BN-tgL"/>
