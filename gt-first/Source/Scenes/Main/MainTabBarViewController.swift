@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  MainTabBarViewController.swift
 //  gt-first
 //
 //  Created by Erick Pac on 3/22/20.
@@ -8,15 +8,10 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        prepareUI()
     }
     
-    private func prepareUI() {
-        
-    }
-
 }
