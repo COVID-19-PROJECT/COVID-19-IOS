@@ -45,6 +45,7 @@
 		A9C5BF50242869B300562CF3 /* EmergencyContactsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF4F242869B300562CF3 /* EmergencyContactsProtocol.swift */; };
 		A9C5BF5424286D5F00562CF3 /* EmergencyContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF5224286D5F00562CF3 /* EmergencyContactCell.swift */; };
 		A9C5BF5524286D5F00562CF3 /* EmergencyContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */; };
+		A9C5BF5724287AD400562CF3 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
 		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
@@ -54,7 +55,7 @@
 		11EBCEB42427E4500037E79D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		57AADA9CB56A55BAB16041D1 /* Pods-gt-first.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.release.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.release.xcconfig"; sourceTree = "<group>"; };
 		92A12A19CE697800430E0ACD /* Pods-gt-first.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.debug.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.debug.xcconfig"; sourceTree = "<group>"; };
-		A943CD0A24270AD90029B6B3 /* Stay Home - GT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stay Home - GT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A943CD0A24270AD90029B6B3 /* Quedate en casa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quedate en casa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A943CD0D24270AD90029B6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A943CD1124270AD90029B6B3 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		A943CD1424270AD90029B6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		A9C5BF4F242869B300562CF3 /* EmergencyContactsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsProtocol.swift; sourceTree = "<group>"; };
 		A9C5BF5224286D5F00562CF3 /* EmergencyContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactCell.swift; sourceTree = "<group>"; };
 		A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmergencyContactCell.xib; sourceTree = "<group>"; };
+		A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
 		A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,7 +133,7 @@
 		A943CD0B24270AD90029B6B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A943CD0A24270AD90029B6B3 /* Stay Home - GT.app */,
+				A943CD0A24270AD90029B6B3 /* Quedate en casa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -371,6 +373,7 @@
 			children = (
 				A943CD3F242728FF0029B6B3 /* String+Localized.swift */,
 				A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */,
+				A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -411,7 +414,7 @@
 			);
 			name = "gt-first";
 			productName = "gt-first";
-			productReference = A943CD0A24270AD90029B6B3 /* Stay Home - GT.app */;
+			productReference = A943CD0A24270AD90029B6B3 /* Quedate en casa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -535,6 +538,7 @@
 				A943CD4824272AC30029B6B3 /* Colors.swift in Sources */,
 				A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */,
 				A943CD1224270AD90029B6B3 /* SplashViewController.swift in Sources */,
+				A9C5BF5724287AD400562CF3 /* UIView+Layer.swift in Sources */,
 				A943CD44242729720029B6B3 /* EmergencyContactModel.swift in Sources */,
 				A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */,
 				A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */,
@@ -722,7 +726,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gt.quedateencasa;
-				PRODUCT_NAME = "Stay Home - GT";
+				PRODUCT_NAME = "Quedate en casa";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -741,7 +745,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gt.quedateencasa;
-				PRODUCT_NAME = "Stay Home - GT";
+				PRODUCT_NAME = "Quedate en casa";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

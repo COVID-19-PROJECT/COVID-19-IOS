@@ -9,6 +9,8 @@
 import UIKit
 
 class EmergencyContactCell: UITableViewCell {
+    
+    @IBOutlet weak var viewContainer: UIView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,7 +22,9 @@ class EmergencyContactCell: UITableViewCell {
     }
     
     private func prepareUI() {
-        
+        selectionStyle = .none
+        viewContainer.layer.cornerRadius = 5
+        viewContainer.addShadow(color: UIColor.black.cgColor, opacity: 0.2, offset: .zero, radius: 3)
     }
     
 }
