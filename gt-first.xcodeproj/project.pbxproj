@@ -55,7 +55,7 @@
 		11EBCEB42427E4500037E79D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		57AADA9CB56A55BAB16041D1 /* Pods-gt-first.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.release.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.release.xcconfig"; sourceTree = "<group>"; };
 		92A12A19CE697800430E0ACD /* Pods-gt-first.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.debug.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.debug.xcconfig"; sourceTree = "<group>"; };
-		A943CD0A24270AD90029B6B3 /* Quedate en casa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quedate en casa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A943CD0A24270AD90029B6B3 /* QuedateEnCasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuedateEnCasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A943CD0D24270AD90029B6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A943CD1124270AD90029B6B3 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		A943CD1424270AD90029B6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		A943CD0B24270AD90029B6B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A943CD0A24270AD90029B6B3 /* Quedate en casa.app */,
+				A943CD0A24270AD90029B6B3 /* QuedateEnCasa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -414,7 +414,7 @@
 			);
 			name = "gt-first";
 			productName = "gt-first";
-			productReference = A943CD0A24270AD90029B6B3 /* Quedate en casa.app */;
+			productReference = A943CD0A24270AD90029B6B3 /* QuedateEnCasa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -726,7 +726,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gt.quedateencasa;
-				PRODUCT_NAME = "Quedate en casa";
+				PRODUCT_NAME = QuedateEnCasa;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -745,7 +745,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gt.quedateencasa;
-				PRODUCT_NAME = "Quedate en casa";
+				PRODUCT_NAME = QuedateEnCasa;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
