@@ -30,7 +30,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="t6h-mk-amF"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="bookmark" catalog="system" id="NwD-BN-tgL"/>
+                    <tabBarItem key="tabBarItem" title="" image="ico_emergency" id="NwD-BN-tgL"/>
                     <navigationItem key="navigationItem" title="Emergencias" id="7an-Hu-b49"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -43,6 +43,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bookmark" catalog="system" width="56" height="64"/>
+        <image name="ico_emergency" width="25" height="22"/>
     </resources>
 </document>

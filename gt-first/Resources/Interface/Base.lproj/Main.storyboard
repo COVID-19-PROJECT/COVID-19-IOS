@@ -17,16 +17,6 @@
             </objects>
             <point key="canvasLocation" x="-611" y="447"/>
         </scene>
-        <!--Stats-->
-        <scene sceneID="WfP-xW-X0i">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Stats" id="ZtF-lb-div" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="cek-6f-g8U"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zg1-ZF-efq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-191" y="447"/>
-        </scene>
         <!--EmergencyContact-->
         <scene sceneID="Q5O-dv-9lM">
             <objects>
@@ -40,7 +30,7 @@
         <!--Main Tab Bar View Controller-->
         <scene sceneID="pyz-lK-G1S">
             <objects>
-                <tabBarController storyboardIdentifier="MainTabBarView" id="guw-3Q-6fH" customClass="MainTabBarViewController" customModule="Stay_Home___GT" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBarView" id="guw-3Q-6fH" customClass="MainTabBarViewController" customModule="QuedateEnCasa" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vid-zl-BaV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -48,7 +38,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="odf-Q6-XDp" kind="relationship" relationship="viewControllers" id="LaL-72-Rgt"/>
-                        <segue destination="ZtF-lb-div" kind="relationship" relationship="viewControllers" id="U0b-0l-vaK"/>
                         <segue destination="ABT-gf-DuI" kind="relationship" relationship="viewControllers" id="cge-S6-87b"/>
                     </connections>
                 </tabBarController>
