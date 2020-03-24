@@ -11,6 +11,8 @@ import UIKit
 class EmergencyContactCell: UITableViewCell {
     
     @IBOutlet weak var viewContainer: UIView!
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelPhone: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

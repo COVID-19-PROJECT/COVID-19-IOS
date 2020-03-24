@@ -12,7 +12,7 @@
         <!--Splash View Controller-->
         <scene sceneID="Ikj-dx-fA4">
             <objects>
-                <viewController storyboardIdentifier="splashView" id="jVZ-j9-O5Q" customClass="SplashViewController" customModule="QuedateEnCasa" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="splashView" interfaceStyle="light" id="jVZ-j9-O5Q" customClass="SplashViewController" customModule="QuedateEnCasa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AWd-Jc-5KJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,10 +32,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AQ0-uQ-6dg"/>
                     </view>
+                    <navigationItem key="navigationItem" id="CBv-Nh-VKG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="war-7r-TxY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-417" y="154"/>
+            <point key="canvasLocation" x="-846" y="158"/>
         </scene>
     </scenes>
     <resources>
