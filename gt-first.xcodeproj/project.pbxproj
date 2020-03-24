@@ -41,6 +41,9 @@
 		A9C5BF4724285CC400562CF3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF4624285CC400562CF3 /* Profile.storyboard */; };
 		A9C5BF4924285F6000562CF3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF4824285F6000562CF3 /* MainTabBarViewController.swift */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
+		CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */; };
+		CDEC98B0242996CB009ED1D4 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */; };
+		CDEC98B2242998CF009ED1D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */; };
 		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +89,9 @@
 		A9C5BF4824285F6000562CF3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsView.xib; sourceTree = "<group>"; };
+		CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,7 @@
 		A943CD2324270B2A0029B6B3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				CDEC98A424298F9C009ED1D4 /* Features */,
 				A98FEF902427CCC60020E7C0 /* APIManager */,
 				A943CD2524270BF70029B6B3 /* AppDelegate */,
 				A943CD3E242728E10029B6B3 /* Helpers */,
@@ -344,6 +351,32 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		CDEC98A424298F9C009ED1D4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98A524298FC2009ED1D4 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CDEC98A524298FC2009ED1D4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98A624298FCC009ED1D4 /* Views */,
+				CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CDEC98A624298FCC009ED1D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */,
+				CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DC80EBF052EC6746B7CA7B7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A943CD1A24270ADC0029B6B3 /* LaunchScreen.storyboard in Resources */,
+				CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */,
 				A943CD30242727B30029B6B3 /* Localizable.strings in Resources */,
 				A943CD1724270ADC0029B6B3 /* Assets.xcassets in Resources */,
 				A9C5BF3F24285C0700562CF3 /* Home.storyboard in Resources */,
@@ -491,6 +525,7 @@
 				A98FEF9D242807D80020E7C0 /* SplashPresenter.swift in Sources */,
 				A98FEF962427D1E80020E7C0 /* OnboardingStep2ViewController.swift in Sources */,
 				A943CD40242728FF0029B6B3 /* String+Localized.swift in Sources */,
+				CDEC98B2242998CF009ED1D4 /* HomeViewController.swift in Sources */,
 				A98FEF812427C6340020E7C0 /* PageViewController.swift in Sources */,
 				A98FEF942427D1D50020E7C0 /* OnboardingStep1ViewController.swift in Sources */,
 				A98FEF892427C8950020E7C0 /* OnboardingPageContainerViewController.swift in Sources */,
@@ -504,6 +539,7 @@
 				A943CD44242729720029B6B3 /* EmergencyContactModel.swift in Sources */,
 				A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */,
 				A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */,
+				CDEC98B0242996CB009ED1D4 /* StatisticsView.swift in Sources */,
 				A98FEF8D2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift in Sources */,
 				A98FEF8B2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift in Sources */,
 			);

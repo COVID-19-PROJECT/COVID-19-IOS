@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MDk-2w-aL0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KcF-NM-WdM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -8,10 +8,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Navigation Controller-->
+        <scene sceneID="OTF-Uo-XVk">
+            <objects>
+                <navigationController id="KcF-NM-WdM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IMc-2g-Eg0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MDk-2w-aL0" kind="relationship" relationship="rootViewController" id="7R6-X9-daZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h8P-fY-AGh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-952" y="122"/>
+        </scene>
+        <!--GUATE EN CASA-->
         <scene sceneID="Apu-RD-KjK">
             <objects>
-                <viewController id="MDk-2w-aL0" sceneMemberID="viewController">
+                <viewController id="MDk-2w-aL0" customClass="HomeViewController" customModule="Stay_Home___GT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HcN-t2-Ksv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,6 +35,9 @@
                         <viewLayoutGuide key="safeArea" id="fKu-Xq-uhz"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="tray" catalog="system" id="OlC-BF-wbb"/>
+                    <navigationItem key="navigationItem" title="GUATE EN CASA" id="sh1-xf-T0q">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="yca-Mp-8rh"/>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DoG-Fk-VJB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
