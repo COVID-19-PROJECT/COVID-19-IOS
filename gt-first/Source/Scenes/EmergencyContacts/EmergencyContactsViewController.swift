@@ -11,6 +11,7 @@ import UIKit
 class EmergencyContactsViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var labelTitle: UILabel!
     
     private let presenter = EmergencyContactsPresenter(apiManager: APIManager.shared)
     
@@ -21,6 +22,7 @@ class EmergencyContactsViewController: UIViewController {
     }
     
     private func prepareTable() {
+        labelTitle.text = "EmergencyContactsTite".localized.uppercased()
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "EmergencyContactCell", bundle: nil), forCellReuseIdentifier: "EmergencyContactCell")
@@ -38,10 +40,6 @@ extension EmergencyContactsViewController: UITableViewDelegate {
 
 extension EmergencyContactsViewController: UITableViewDataSource {
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4
     }
@@ -50,7 +48,6 @@ extension EmergencyContactsViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "EmergencyContactCell", for: indexPath)
         return cell
     }
-    
     
 }
 

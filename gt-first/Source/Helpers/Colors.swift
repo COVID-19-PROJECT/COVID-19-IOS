@@ -11,5 +11,7 @@ import UIKit
 extension UIColor {
     
     static var mainBackground: UIColor { UIColor(named: "mainBackground") ?? UIColor.white }
+    static var mainBlue: UIColor { UIColor(named: "mainBlue") ?? UIColor.white }
+    static var unselectedBarItem: UIColor { UIColor(named: "unselectedBarItem") ?? UIColor.white }
 
 }

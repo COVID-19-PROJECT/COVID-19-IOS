@@ -207,7 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				A9C5BF4A2428697500562CF3 /* EmergencyContacts */,
-				A98FEFA024280E350020E7C0 /* Main */,
+				A98FEFA024280E350020E7C0 /* TabBar */,
 				A98FEF7C2427C5AA0020E7C0 /* Onboarding */,
 				A98FEF992427EA510020E7C0 /* Splash */,
 			);
@@ -340,12 +340,12 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
-		A98FEFA024280E350020E7C0 /* Main */ = {
+		A98FEFA024280E350020E7C0 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
 				A9C5BF4824285F6000562CF3 /* MainTabBarViewController.swift */,
 			);
-			path = Main;
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		A9C5BF4A2428697500562CF3 /* EmergencyContacts */ = {
