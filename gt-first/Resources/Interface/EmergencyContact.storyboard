@@ -7,6 +7,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="Mu3-zn-aZU">
@@ -33,13 +38,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yPa-fs-w2K">
-                                <rect key="frame" x="0.0" y="144" width="414" height="669"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="0.0" y="129.5" width="414" height="683.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NÚMEROS DE EMERGENCIA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPH-1t-U7n">
-                                <rect key="frame" x="20" y="108" width="374" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="20" y="108" width="374" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                <color key="textColor" red="0.22787222269999999" green="0.2484543622" blue="0.31295770410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -51,7 +56,7 @@
                             <constraint firstItem="t6h-mk-amF" firstAttribute="bottom" secondItem="yPa-fs-w2K" secondAttribute="bottom" id="NiV-eS-0xv"/>
                             <constraint firstItem="tPH-1t-U7n" firstAttribute="leading" secondItem="t6h-mk-amF" secondAttribute="leading" constant="20" id="a8U-IO-ShZ"/>
                             <constraint firstItem="tPH-1t-U7n" firstAttribute="top" secondItem="t6h-mk-amF" secondAttribute="top" constant="20" id="pbu-6N-OB6"/>
-                            <constraint firstItem="yPa-fs-w2K" firstAttribute="top" secondItem="tPH-1t-U7n" secondAttribute="bottom" constant="15" id="rHE-NQ-d5k"/>
+                            <constraint firstItem="yPa-fs-w2K" firstAttribute="top" secondItem="tPH-1t-U7n" secondAttribute="bottom" constant="5" id="rHE-NQ-d5k"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="t6h-mk-amF"/>
                     </view>
@@ -71,7 +76,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ico_emergency" width="25" height="25"/>
+        <image name="ico_emergency" width="20" height="20"/>
         <image name="ico_user" width="20" height="20"/>
     </resources>
 </document>

@@ -47,6 +47,24 @@
 		A9C5BF5524286D5F00562CF3 /* EmergencyContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */; };
 		A9C5BF5724287AD400562CF3 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
+		A9ED1561242AC54D00831E9A /* FAQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ED1560242AC54D00831E9A /* FAQ.storyboard */; };
+		A9ED1567242ACC1400831E9A /* FAQPageContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1566242ACC1400831E9A /* FAQPageContainerViewController.swift */; };
+		A9ED1569242ACCBE00831E9A /* FAQPageContainerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1568242ACCBE00831E9A /* FAQPageContainerPresenter.swift */; };
+		A9ED156B242ACCC900831E9A /* FAQPageContainerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED156A242ACCC900831E9A /* FAQPageContainerProtocol.swift */; };
+		A9ED156D242ACF9D00831E9A /* FAQCommunicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED156C242ACF9D00831E9A /* FAQCommunicationsViewController.swift */; };
+		A9ED156F242ACFA900831E9A /* FAQCommunicationsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED156E242ACFA900831E9A /* FAQCommunicationsProtocol.swift */; };
+		A9ED1571242ACFB300831E9A /* FAQCommunicationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1570242ACFB300831E9A /* FAQCommunicationsPresenter.swift */; };
+		A9ED1573242ACFC800831E9A /* FAQRecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1572242ACFC800831E9A /* FAQRecommendationsViewController.swift */; };
+		A9ED1575242ACFD300831E9A /* FAQRecommendationsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1574242ACFD300831E9A /* FAQRecommendationsProtocol.swift */; };
+		A9ED1577242ACFDD00831E9A /* FAQRecommendationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1576242ACFDD00831E9A /* FAQRecommendationsPresenter.swift */; };
+		A9ED157B242AD69600831E9A /* Futura-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED1579242AD68500831E9A /* Futura-Bold.ttf */; };
+		A9ED157C242AD69900831E9A /* Futura-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157A242AD68500831E9A /* Futura-Medium.ttf */; };
+		A9ED1583242AD76200831E9A /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED1580242AD71700831E9A /* Roboto-Black.ttf */; };
+		A9ED1584242AD76500831E9A /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157E242AD71600831E9A /* Roboto-Italic.ttf */; };
+		A9ED1585242AD76800831E9A /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED1581242AD71700831E9A /* Roboto-Light.ttf */; };
+		A9ED1586242AD76B00831E9A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */; };
+		A9ED1587242AD76F00831E9A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */; };
+		A9ED1588242AD77100831E9A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */; };
 		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +115,24 @@
 		A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmergencyContactCell.xib; sourceTree = "<group>"; };
 		A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
 		A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
+		A9ED1560242AC54D00831E9A /* FAQ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FAQ.storyboard; sourceTree = "<group>"; };
+		A9ED1566242ACC1400831E9A /* FAQPageContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQPageContainerViewController.swift; sourceTree = "<group>"; };
+		A9ED1568242ACCBE00831E9A /* FAQPageContainerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQPageContainerPresenter.swift; sourceTree = "<group>"; };
+		A9ED156A242ACCC900831E9A /* FAQPageContainerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQPageContainerProtocol.swift; sourceTree = "<group>"; };
+		A9ED156C242ACF9D00831E9A /* FAQCommunicationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQCommunicationsViewController.swift; sourceTree = "<group>"; };
+		A9ED156E242ACFA900831E9A /* FAQCommunicationsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQCommunicationsProtocol.swift; sourceTree = "<group>"; };
+		A9ED1570242ACFB300831E9A /* FAQCommunicationsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQCommunicationsPresenter.swift; sourceTree = "<group>"; };
+		A9ED1572242ACFC800831E9A /* FAQRecommendationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRecommendationsViewController.swift; sourceTree = "<group>"; };
+		A9ED1574242ACFD300831E9A /* FAQRecommendationsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRecommendationsProtocol.swift; sourceTree = "<group>"; };
+		A9ED1576242ACFDD00831E9A /* FAQRecommendationsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRecommendationsPresenter.swift; sourceTree = "<group>"; };
+		A9ED1579242AD68500831E9A /* Futura-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Bold.ttf"; sourceTree = "<group>"; };
+		A9ED157A242AD68500831E9A /* Futura-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Medium.ttf"; sourceTree = "<group>"; };
+		A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A9ED157E242AD71600831E9A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		A9ED1580242AD71700831E9A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A9ED1581242AD71700831E9A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -161,6 +197,7 @@
 			children = (
 				A943CD1624270ADC0029B6B3 /* Assets.xcassets */,
 				A943CD4524272A320029B6B3 /* Colors.xcassets */,
+				A9ED1578242AD64000831E9A /* Fonts */,
 				A943CD2424270B590029B6B3 /* Interface */,
 				A943CD2B242726860029B6B3 /* Localization */,
 			);
@@ -183,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				A9C5BF4024285C3500562CF3 /* EmergencyContact.storyboard */,
+				A9ED1560242AC54D00831E9A /* FAQ.storyboard */,
 				A9C5BF3E24285C0700562CF3 /* Home.storyboard */,
 				A943CD1824270ADC0029B6B3 /* LaunchScreen.storyboard */,
 				A9C5BF4224285C5B00562CF3 /* Login.storyboard */,
@@ -207,9 +245,10 @@
 			isa = PBXGroup;
 			children = (
 				A9C5BF4A2428697500562CF3 /* EmergencyContacts */,
-				A98FEFA024280E350020E7C0 /* TabBar */,
+				A9ED1562242ACA0E00831E9A /* FAQ */,
 				A98FEF7C2427C5AA0020E7C0 /* Onboarding */,
 				A98FEF992427EA510020E7C0 /* Splash */,
+				A98FEFA024280E350020E7C0 /* TabBar */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -378,6 +417,61 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		A9ED1562242ACA0E00831E9A /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1565242ACA5500831E9A /* Communications */,
+				A9ED1563242ACA1800831E9A /* PageContainer */,
+				A9ED1564242ACA2100831E9A /* Recomendations */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		A9ED1563242ACA1800831E9A /* PageContainer */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1568242ACCBE00831E9A /* FAQPageContainerPresenter.swift */,
+				A9ED156A242ACCC900831E9A /* FAQPageContainerProtocol.swift */,
+				A9ED1566242ACC1400831E9A /* FAQPageContainerViewController.swift */,
+			);
+			path = PageContainer;
+			sourceTree = "<group>";
+		};
+		A9ED1564242ACA2100831E9A /* Recomendations */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1576242ACFDD00831E9A /* FAQRecommendationsPresenter.swift */,
+				A9ED1574242ACFD300831E9A /* FAQRecommendationsProtocol.swift */,
+				A9ED1572242ACFC800831E9A /* FAQRecommendationsViewController.swift */,
+			);
+			path = Recomendations;
+			sourceTree = "<group>";
+		};
+		A9ED1565242ACA5500831E9A /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1570242ACFB300831E9A /* FAQCommunicationsPresenter.swift */,
+				A9ED156E242ACFA900831E9A /* FAQCommunicationsProtocol.swift */,
+				A9ED156C242ACF9D00831E9A /* FAQCommunicationsViewController.swift */,
+			);
+			path = Communications;
+			sourceTree = "<group>";
+		};
+		A9ED1578242AD64000831E9A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1580242AD71700831E9A /* Roboto-Black.ttf */,
+				A9ED157E242AD71600831E9A /* Roboto-Italic.ttf */,
+				A9ED1581242AD71700831E9A /* Roboto-Light.ttf */,
+				A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */,
+				A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */,
+				A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */,
+				A9ED1579242AD68500831E9A /* Futura-Bold.ttf */,
+				A9ED157A242AD68500831E9A /* Futura-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		DC80EBF052EC6746B7CA7B7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -456,17 +550,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9ED157B242AD69600831E9A /* Futura-Bold.ttf in Resources */,
 				A943CD1A24270ADC0029B6B3 /* LaunchScreen.storyboard in Resources */,
+				A9ED1585242AD76800831E9A /* Roboto-Light.ttf in Resources */,
 				A943CD30242727B30029B6B3 /* Localizable.strings in Resources */,
 				A943CD1724270ADC0029B6B3 /* Assets.xcassets in Resources */,
 				A9C5BF3F24285C0700562CF3 /* Home.storyboard in Resources */,
+				A9ED1583242AD76200831E9A /* Roboto-Black.ttf in Resources */,
 				A98FEF9B242807530020E7C0 /* Splash.storyboard in Resources */,
+				A9ED157C242AD69900831E9A /* Futura-Medium.ttf in Resources */,
+				A9ED1588242AD77100831E9A /* Roboto-Thin.ttf in Resources */,
+				A9ED1584242AD76500831E9A /* Roboto-Italic.ttf in Resources */,
 				A9C5BF4724285CC400562CF3 /* Profile.storyboard in Resources */,
 				A9C5BF4124285C3500562CF3 /* EmergencyContact.storyboard in Resources */,
+				A9ED1587242AD76F00831E9A /* Roboto-Regular.ttf in Resources */,
 				A9C5BF4524285CB300562CF3 /* Stats.storyboard in Resources */,
+				A9ED1561242AC54D00831E9A /* FAQ.storyboard in Resources */,
 				A943CD4624272A320029B6B3 /* Colors.xcassets in Resources */,
 				A98FEF732427C33A0020E7C0 /* Onboarding.storyboard in Resources */,
 				A943CD1524270AD90029B6B3 /* Main.storyboard in Resources */,
+				A9ED1586242AD76B00831E9A /* Roboto-Medium.ttf in Resources */,
 				A943CD3A2427288F0029B6B3 /* InfoPlist.strings in Resources */,
 				A9C5BF5524286D5F00562CF3 /* EmergencyContactCell.xib in Resources */,
 				A9C5BF4324285C5B00562CF3 /* Login.storyboard in Resources */,
@@ -521,16 +624,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A98FEF832427C7010020E7C0 /* PageChangeProtocol.swift in Sources */,
+				A9ED156B242ACCC900831E9A /* FAQPageContainerProtocol.swift in Sources */,
 				11EBCEB32427E0C20037E79D /* Storage.swift in Sources */,
 				A9C5BF50242869B300562CF3 /* EmergencyContactsProtocol.swift in Sources */,
 				A9C5BF4924285F6000562CF3 /* MainTabBarViewController.swift in Sources */,
 				A98FEF9D242807D80020E7C0 /* SplashPresenter.swift in Sources */,
 				A98FEF962427D1E80020E7C0 /* OnboardingStep2ViewController.swift in Sources */,
 				A9C5BF4C2428699900562CF3 /* EmergencyContactsViewController.swift in Sources */,
+				A9ED1571242ACFB300831E9A /* FAQCommunicationsPresenter.swift in Sources */,
 				A943CD40242728FF0029B6B3 /* String+Localized.swift in Sources */,
 				A98FEF812427C6340020E7C0 /* PageViewController.swift in Sources */,
 				A98FEF942427D1D50020E7C0 /* OnboardingStep1ViewController.swift in Sources */,
 				A98FEF892427C8950020E7C0 /* OnboardingPageContainerViewController.swift in Sources */,
+				A9ED156D242ACF9D00831E9A /* FAQCommunicationsViewController.swift in Sources */,
+				A9ED1575242ACFD300831E9A /* FAQRecommendationsProtocol.swift in Sources */,
 				A98FEF9F242807ED0020E7C0 /* SplashProtocol.swift in Sources */,
 				11EBCEB52427E4500037E79D /* Constants.swift in Sources */,
 				A98FEF8F2427CBCB0020E7C0 /* LoaderProtocol.swift in Sources */,
@@ -538,10 +645,15 @@
 				A943CD4824272AC30029B6B3 /* Colors.swift in Sources */,
 				A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */,
 				A943CD1224270AD90029B6B3 /* SplashViewController.swift in Sources */,
+				A9ED1569242ACCBE00831E9A /* FAQPageContainerPresenter.swift in Sources */,
 				A9C5BF5724287AD400562CF3 /* UIView+Layer.swift in Sources */,
 				A943CD44242729720029B6B3 /* EmergencyContactModel.swift in Sources */,
+				A9ED1567242ACC1400831E9A /* FAQPageContainerViewController.swift in Sources */,
+				A9ED1577242ACFDD00831E9A /* FAQRecommendationsPresenter.swift in Sources */,
 				A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */,
 				A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */,
+				A9ED1573242ACFC800831E9A /* FAQRecommendationsViewController.swift in Sources */,
+				A9ED156F242ACFA900831E9A /* FAQCommunicationsProtocol.swift in Sources */,
 				A9C5BF5424286D5F00562CF3 /* EmergencyContactCell.swift in Sources */,
 				A98FEF8D2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift in Sources */,
 				A98FEF8B2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift in Sources */,

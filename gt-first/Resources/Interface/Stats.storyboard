@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="Xkd-al-7lT">
             <objects>
                 <viewController id="Q4d-Ih-AoK" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="RdP-Ly-Pac"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="doc.plaintext" catalog="system" id="6V7-Xy-a97"/>
+                    <tabBarItem key="tabBarItem" title="" image="ico_emergency" id="6V7-Xy-a97"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMS-gX-3nW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -27,6 +27,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="doc.plaintext" catalog="system" width="56" height="64"/>
+        <image name="ico_emergency" width="20" height="20"/>
     </resources>
 </document>
