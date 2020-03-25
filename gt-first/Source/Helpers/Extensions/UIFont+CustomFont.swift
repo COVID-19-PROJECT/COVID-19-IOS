@@ -42,6 +42,10 @@ enum FontWeight: String {
 
 extension UIFont {
     
+    static func `default`(size: CGFloat, weight: FontWeight) -> UIFont {
+        return UIFont(name: "Raleway-\(weight.name)", size: size) ?? UIFont.systemFont(ofSize: size)
+    }
+    
     static func roboto(size: CGFloat, weight: FontWeight) -> UIFont {
         return UIFont(name: "Roboto-\(weight.name)", size: size)!
     }
