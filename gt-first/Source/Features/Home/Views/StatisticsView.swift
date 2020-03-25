@@ -23,36 +23,41 @@ class StatisticsView: UIView {
     statisticsView.layer.shadowOpacity = 0.2
     statisticsView.layer.shadowOffset = CGSize.zero
     statisticsView.layer.shadowRadius = 2
-    setStatistics(confirmed: "0", actives: "0", recovered: "0", deaths: "0")
+    setStatistics(confirmed: "100", actives: "20", recovered: "20", deaths: "20")
   }
   
   func setStatistics(confirmed: String,
                      actives: String,
                      recovered: String,
                      deaths: String) {
-    let confirmedTxt = "Confirmados\n"
-    let activesTxt = "Activos\n"
-    let recoveredTxt = "Recuperados\n"
-    let deathsTxt = "Muertes\n"
+    let confirmedTxt = "Confirmados"
+    let activesTxt = "Activos"
+    let recoveredTxt = "Recuperados"
+    let deathsTxt = "Muertes"
     
     let titleAttribute = [ NSAttributedString.Key.font: UIFont.systemFont(ofSize: 10), NSAttributedString.Key.foregroundColor: UIColor(hex: 0x3A3F50) ]
+    let title2Attribute = [ NSAttributedString.Key.font: UIFont.systemFont(ofSize: 5), NSAttributedString.Key.foregroundColor: UIColor(hex: 0x3A3F50) ]
     
-    let statistic1Attribute = [ NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 34), NSAttributedString.Key.foregroundColor: UIColor(hex: 0xD40000)]
-    let statistic2Attribute = [ NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 34), NSAttributedString.Key.foregroundColor: UIColor(hex: 0x279700)]
-    let statistic3Attribute = [ NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 34), NSAttributedString.Key.foregroundColor: UIColor(hex: 0xFFAA00)]
-    let statistic4Attribute = [ NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 34), NSAttributedString.Key.foregroundColor: UIColor(hex: 0x6B6B6B)]
+    let statistic1Attribute = [ NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 30), NSAttributedString.Key.foregroundColor: UIColor(hex: 0xD40000)]
+    let statistic2Attribute = [ NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 30), NSAttributedString.Key.foregroundColor: UIColor(hex: 0x279700)]
+    let statistic3Attribute = [ NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 30), NSAttributedString.Key.foregroundColor: UIColor(hex: 0xFFAA00)]
+    let statistic4Attribute = [ NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 30), NSAttributedString.Key.foregroundColor: UIColor(hex: 0x6B6B6B)]
     
     let confirmedAttributedText = NSMutableAttributedString(string: confirmedTxt, attributes: titleAttribute )
+    confirmedAttributedText.append(NSMutableAttributedString(string: "\n\n", attributes: title2Attribute ))
     confirmedAttributedText.append(NSMutableAttributedString(string: confirmed, attributes: statistic1Attribute ))
     
     let activeAttributedText = NSMutableAttributedString(string: activesTxt, attributes: titleAttribute )
-     activeAttributedText.append(NSMutableAttributedString(string: actives, attributes: statistic2Attribute ))
+    activeAttributedText.append(NSMutableAttributedString(string: "\n\n", attributes: title2Attribute ))
+    activeAttributedText.append(NSMutableAttributedString(string: actives, attributes: statistic2Attribute ))
     
     let recoveredAttributedText = NSMutableAttributedString(string: recoveredTxt, attributes: titleAttribute )
-     recoveredAttributedText.append(NSMutableAttributedString(string: recovered, attributes: statistic3Attribute ))
+    recoveredAttributedText.append(NSMutableAttributedString(string: "\n\n", attributes: title2Attribute ))
+    recoveredAttributedText.append(NSMutableAttributedString(string: recovered, attributes: statistic3Attribute ))
     
     let deathsAttributedText = NSMutableAttributedString(string: deathsTxt, attributes: titleAttribute )
-     deathsAttributedText.append(NSMutableAttributedString(string: deaths, attributes: statistic4Attribute ))
+    deathsAttributedText.append(NSMutableAttributedString(string: "\n\n", attributes: title2Attribute ))
+    deathsAttributedText.append(NSMutableAttributedString(string: deaths, attributes: statistic4Attribute ))
     
     confirmedLabel.attributedText = confirmedAttributedText
     activeLabel.attributedText = activeAttributedText
