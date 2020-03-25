@@ -37,6 +37,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -50,5 +52,18 @@
 	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Roboto-Black</string>
+		<string>Roboto-Italic</string>
+		<string>Roboto-Light</string>
+		<string>Roboto-Medium</string>
+		<string>Roboto-Regular</string>
+		<string>Roboto-Thin</string>
+		<string>Futura-Bold</string>
+		<string>Futura-Medium</string>
+	</array>
 </dict>
 </plist>

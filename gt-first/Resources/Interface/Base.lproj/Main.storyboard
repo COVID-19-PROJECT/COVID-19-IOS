@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="guw-3Q-6fH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="guw-3Q-6fH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,15 +18,15 @@
             </objects>
             <point key="canvasLocation" x="-611" y="447"/>
         </scene>
-        <!--Stats-->
-        <scene sceneID="WfP-xW-X0i">
+        <!--FAQ-->
+        <scene sceneID="9sj-1p-ZPB">
             <objects>
-                <viewControllerPlaceholder storyboardName="Stats" id="ZtF-lb-div" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="cek-6f-g8U"/>
+                <viewControllerPlaceholder storyboardName="FAQ" id="o3n-Le-8Wb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="BP7-06-dnP"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zg1-ZF-efq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3dD-zJ-seh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-191" y="447"/>
+            <point key="canvasLocation" x="172" y="447"/>
         </scene>
         <!--EmergencyContact-->
         <scene sceneID="Q5O-dv-9lM">
@@ -35,12 +36,12 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EiG-lf-gud" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="267" y="447"/>
+            <point key="canvasLocation" x="-191" y="447"/>
         </scene>
         <!--Main Tab Bar View Controller-->
         <scene sceneID="pyz-lK-G1S">
             <objects>
-                <tabBarController storyboardIdentifier="MainTabBarView" id="guw-3Q-6fH" customClass="MainTabBarViewController" customModule="Stay_Home___GT" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBarView" id="guw-3Q-6fH" customClass="MainTabBarViewController" customModule="QuedateEnCasa" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vid-zl-BaV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -48,13 +49,73 @@
                     </tabBar>
                     <connections>
                         <segue destination="odf-Q6-XDp" kind="relationship" relationship="viewControllers" id="LaL-72-Rgt"/>
-                        <segue destination="ZtF-lb-div" kind="relationship" relationship="viewControllers" id="U0b-0l-vaK"/>
                         <segue destination="ABT-gf-DuI" kind="relationship" relationship="viewControllers" id="cge-S6-87b"/>
+                        <segue destination="o3n-Le-8Wb" kind="relationship" relationship="viewControllers" id="tQ4-Pc-tzq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Di1-3F-Q7w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-190" y="31"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="C93-cr-BzN">
+            <objects>
+                <viewController storyboardIdentifier="CompleteInformation" modalPresentationStyle="formSheet" id="wfJ-7y-3Ge" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q8p-5r-8no">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qvx-hA-cZq" customClass="TextField" customModule="Stay_Home___GT" customModuleProvider="target">
+                                <rect key="frame" x="20" y="660" width="374" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="li5-fA-gUZ" customClass="TextField" customModule="Stay_Home___GT" customModuleProvider="target">
+                                <rect key="frame" x="20" y="722" width="374" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LoE-nD-f89">
+                                <rect key="frame" x="20" y="64" width="374" height="576"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHH-rg-XbR" customClass="Button" customModule="Stay_Home___GT" customModuleProvider="target">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GED-S5-mcY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Continuar"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LoE-nD-f89" firstAttribute="top" secondItem="eYS-z7-rQT" secondAttribute="top" constant="20" id="08G-0N-e6R"/>
+                            <constraint firstItem="li5-fA-gUZ" firstAttribute="height" secondItem="eHH-rg-XbR" secondAttribute="height" id="08h-T0-D4n"/>
+                            <constraint firstItem="qvx-hA-cZq" firstAttribute="height" secondItem="li5-fA-gUZ" secondAttribute="height" id="0PU-Wq-5rA"/>
+                            <constraint firstItem="eHH-rg-XbR" firstAttribute="top" secondItem="li5-fA-gUZ" secondAttribute="bottom" constant="20" id="AG0-Jn-rTf"/>
+                            <constraint firstItem="LoE-nD-f89" firstAttribute="leading" secondItem="qvx-hA-cZq" secondAttribute="leading" id="B2M-5P-0BA"/>
+                            <constraint firstItem="eYS-z7-rQT" firstAttribute="bottom" secondItem="eHH-rg-XbR" secondAttribute="bottom" constant="20" id="Cqz-4P-s6Y"/>
+                            <constraint firstItem="li5-fA-gUZ" firstAttribute="leading" secondItem="eHH-rg-XbR" secondAttribute="leading" id="Igu-xE-yEN"/>
+                            <constraint firstItem="eYS-z7-rQT" firstAttribute="trailing" secondItem="eHH-rg-XbR" secondAttribute="trailing" constant="20" id="Of0-mj-3po"/>
+                            <constraint firstItem="li5-fA-gUZ" firstAttribute="trailing" secondItem="eHH-rg-XbR" secondAttribute="trailing" id="V76-Vf-HZH"/>
+                            <constraint firstItem="eHH-rg-XbR" firstAttribute="leading" secondItem="eYS-z7-rQT" secondAttribute="leading" constant="20" id="XSc-53-nIy"/>
+                            <constraint firstItem="qvx-hA-cZq" firstAttribute="leading" secondItem="li5-fA-gUZ" secondAttribute="leading" id="XTy-wM-ucc"/>
+                            <constraint firstItem="qvx-hA-cZq" firstAttribute="top" secondItem="LoE-nD-f89" secondAttribute="bottom" constant="20" id="auh-2C-6xX"/>
+                            <constraint firstItem="LoE-nD-f89" firstAttribute="trailing" secondItem="qvx-hA-cZq" secondAttribute="trailing" id="dvl-de-dXI"/>
+                            <constraint firstItem="li5-fA-gUZ" firstAttribute="top" secondItem="qvx-hA-cZq" secondAttribute="bottom" constant="12" id="eSu-k8-U0z"/>
+                            <constraint firstItem="qvx-hA-cZq" firstAttribute="trailing" secondItem="li5-fA-gUZ" secondAttribute="trailing" id="foV-io-xlF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eYS-z7-rQT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pgm-6f-QYR"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="414" height="400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pA7-ss-oeD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840.57971014492762" y="30.803571428571427"/>
         </scene>
     </scenes>
 </document>

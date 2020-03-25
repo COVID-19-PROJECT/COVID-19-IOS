@@ -14,9 +14,15 @@ public struct K {
         case Main = "Main"
         case Onboarding = "Onboarding"
         case Splash = "Splash"
+        case Login = "Login"
+        case FAQ = "FAQ"
         
         var value: UIStoryboard {
             return  UIStoryboard(name: self.rawValue, bundle: nil)
         }
+    }
+    
+    enum ControllerIdentifier: String {
+        case CompleteInformation = "CompleteInformation"
     }
 }

@@ -12,6 +12,14 @@ class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        prepareUI()
+    }
+    
+    private func prepareUI() {
+        tabBar.isTranslucent = false
+        tabBar.barTintColor = .mainBlue
+        tabBar.tintColor = .white
+        tabBar.unselectedItemTintColor = .unselectedBarItem
     }
     
 }

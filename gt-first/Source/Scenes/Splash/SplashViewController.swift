@@ -17,7 +17,11 @@ class SplashViewController: UIViewController {
         presenter.attachView(view: self)
         presenter.requestConfig()
     }
-
+    
+    private func prepareUI() {
+        
+    }
+    
 }
 
 extension SplashViewController: SplashDelegate {
