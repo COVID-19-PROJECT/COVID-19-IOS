@@ -26,7 +26,8 @@ class HomeViewController: UIViewController {
       statistics.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
       statistics.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
       statistics.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-      statistics.heightAnchor.constraint(equalToConstant: 180).isActive = true
+      statistics.heightAnchor.constraint(equalToConstant: 120).isActive = true
+      statistics.setStatistics(confirmed: "80", actives: "40", recovered: "30", deaths: "10")
     }
   }
 }

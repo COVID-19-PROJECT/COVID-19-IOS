@@ -23,7 +23,6 @@ class StatisticsView: UIView {
     statisticsView.layer.shadowOpacity = 0.2
     statisticsView.layer.shadowOffset = CGSize.zero
     statisticsView.layer.shadowRadius = 2
-    setStatistics(confirmed: "100", actives: "20", recovered: "20", deaths: "20")
   }
   
   func setStatistics(confirmed: String,
