@@ -69,6 +69,7 @@
 		A9ED1587242AD76F00831E9A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */; };
 		A9ED1588242AD77100831E9A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */; };
 		F0E45914083BEDE5BBDFBA87 /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C833EFDA6F4442280F60F7 /* Pods_gt_first.framework */; };
+		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,8 @@
 		11EBCEB42427E4500037E79D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A629D123CA5AF47344B2B859 /* Pods-gt-first.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.release.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.release.xcconfig"; sourceTree = "<group>"; };
 		A7C833EFDA6F4442280F60F7 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AADA9CB56A55BAB16041D1 /* Pods-gt-first.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.release.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.release.xcconfig"; sourceTree = "<group>"; };
+		92A12A19CE697800430E0ACD /* Pods-gt-first.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.debug.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.debug.xcconfig"; sourceTree = "<group>"; };
 		A943CD0A24270AD90029B6B3 /* QuedateEnCasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuedateEnCasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A943CD0D24270AD90029B6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A943CD1124270AD90029B6B3 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +143,7 @@
 		A9ED1580242AD71700831E9A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		A9ED1581242AD71700831E9A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -443,6 +447,61 @@
 			sourceTree = "<group>";
 		};
 		A9ED1562242ACA0E00831E9A /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1565242ACA5500831E9A /* Communications */,
+				A9ED1563242ACA1800831E9A /* PageContainer */,
+				A9ED1564242ACA2100831E9A /* Recomendations */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		A9ED1563242ACA1800831E9A /* PageContainer */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1568242ACCBE00831E9A /* FAQPageContainerPresenter.swift */,
+				A9ED156A242ACCC900831E9A /* FAQPageContainerProtocol.swift */,
+				A9ED1566242ACC1400831E9A /* FAQPageContainerViewController.swift */,
+			);
+			path = PageContainer;
+			sourceTree = "<group>";
+		};
+		A9ED1564242ACA2100831E9A /* Recomendations */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1576242ACFDD00831E9A /* FAQRecommendationsPresenter.swift */,
+				A9ED1574242ACFD300831E9A /* FAQRecommendationsProtocol.swift */,
+				A9ED1572242ACFC800831E9A /* FAQRecommendationsViewController.swift */,
+			);
+			path = Recomendations;
+			sourceTree = "<group>";
+		};
+		A9ED1565242ACA5500831E9A /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1570242ACFB300831E9A /* FAQCommunicationsPresenter.swift */,
+				A9ED156E242ACFA900831E9A /* FAQCommunicationsProtocol.swift */,
+				A9ED156C242ACF9D00831E9A /* FAQCommunicationsViewController.swift */,
+			);
+			path = Communications;
+			sourceTree = "<group>";
+		};
+		A9ED1578242AD64000831E9A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A9ED1580242AD71700831E9A /* Roboto-Black.ttf */,
+				A9ED157E242AD71600831E9A /* Roboto-Italic.ttf */,
+				A9ED1581242AD71700831E9A /* Roboto-Light.ttf */,
+				A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */,
+				A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */,
+				A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */,
+				A9ED1579242AD68500831E9A /* Futura-Bold.ttf */,
+				A9ED157A242AD68500831E9A /* Futura-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DC80EBF052EC6746B7CA7B7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				A9ED1565242ACA5500831E9A /* Communications */,

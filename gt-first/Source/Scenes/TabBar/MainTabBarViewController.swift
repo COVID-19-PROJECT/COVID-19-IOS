@@ -8,12 +8,8 @@
 
 import UIKit
 
-class MainTabBarViewController: UITabBarController, UIViewControllerTransitioningDelegate {
+class MainTabBarViewController: UITabBarController {
 
-    override var modalPresentationStyle: UIModalPresentationStyle {
-        get { return .custom } set { }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         prepareUI()
@@ -24,12 +20,6 @@ class MainTabBarViewController: UITabBarController, UIViewControllerTransitionin
         tabBar.barTintColor = .mainBlue
         tabBar.tintColor = .white
         tabBar.unselectedItemTintColor = .unselectedBarItem
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        let storyboard = K.Storyboards.Main.value
-        let controller = storyboard.instantiateViewController(withIdentifier: K.ControllerIdentifier.CompleteInformation.rawValue)
-        show(controller, sender: nil)
     }
     
 }
