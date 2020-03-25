@@ -40,7 +40,7 @@ enum FontWeight: String {
 extension UIFont {
     
     static func `default`(size: CGFloat, weight: FontWeight) -> UIFont {
-        return UIFont(name: "Raleway-\(weight.name)", size: size)!
+        return UIFont(name: "Raleway-\(weight.name)", size: size) ?? UIFont.systemFont(ofSize: size)
     }
     
 }

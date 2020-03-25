@@ -32,7 +32,9 @@ class SplashPresenter {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
             let board = !self.isFirstLaunch
                 ? K.Storyboards.Onboarding.value
-                : K.Storyboards.Main.value
+                : Authentication.default.isAuthenticated
+                    ? K.Storyboards.Main.value
+                    : K.Storyboards.Login.value
             
             guard let controller = board.instantiateInitialViewController() else {
                 fatalError("Could not locate Storyboard controller")

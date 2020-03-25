@@ -10,12 +10,31 @@ import UIKit
 
 class Button: UIButton {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    @IBInspectable var isPrimary: Bool = true {
+           didSet {
+               layoutSubviews()
+           }
+       }
+    @IBInspectable var color: UIColor = .darkGray {
+           didSet {
+               layoutSubviews()
+           }
+       }
+    @IBInspectable var textColor: UIColor = .white {
+           didSet {
+               layoutSubviews()
+           }
+       }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        layer.borderColor = color.cgColor
+        layer.borderWidth = 2
+        layer.cornerRadius = 5
+        layer.masksToBounds = true
+        
+        backgroundColor = isPrimary ? color : .clear
+        setTitleColor(textColor, for: .normal)
     }
-    */
 
 }

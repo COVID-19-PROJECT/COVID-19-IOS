@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class Authentication {
+    static var `default` = Authentication()
+    
+    var isAuthenticated: Bool {
+        return false
+    }
+}

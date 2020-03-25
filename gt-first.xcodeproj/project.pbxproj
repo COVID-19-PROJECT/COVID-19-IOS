@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1176238724286E94004A13DB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1176238624286E94004A13DB /* Button.swift */; };
+		117623892428728E004A13DB /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117623882428728E004A13DB /* Authentication.swift */; };
+		1176238B24287523004A13DB /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1176238A24287523004A13DB /* TextField.swift */; };
 		11EBCEB32427E0C20037E79D /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBCEB22427E0C20037E79D /* Storage.swift */; };
 		11EBCEB52427E4500037E79D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBCEB42427E4500037E79D /* Constants.swift */; };
 		A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943CD0D24270AD90029B6B3 /* AppDelegate.swift */; };
@@ -45,6 +48,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1176238624286E94004A13DB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		117623882428728E004A13DB /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		1176238A24287523004A13DB /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		11EBCEB22427E0C20037E79D /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		11EBCEB42427E4500037E79D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		57AADA9CB56A55BAB16041D1 /* Pods-gt-first.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.release.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,10 +106,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1176238524286E64004A13DB /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				1176238624286E94004A13DB /* Button.swift */,
+				1176238A24287523004A13DB /* TextField.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
 		11EBCEB12427E0B00037E79D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				11EBCEB22427E0C20037E79D /* Storage.swift */,
+				117623882428728E004A13DB /* Authentication.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -158,6 +174,7 @@
 		A943CD2324270B2A0029B6B3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1176238524286E64004A13DB /* Controls */,
 				A98FEF902427CCC60020E7C0 /* APIManager */,
 				A943CD2524270BF70029B6B3 /* AppDelegate */,
 				A943CD3E242728E10029B6B3 /* Helpers */,
@@ -488,11 +505,13 @@
 				A98FEF832427C7010020E7C0 /* PageChangeProtocol.swift in Sources */,
 				11EBCEB32427E0C20037E79D /* Storage.swift in Sources */,
 				A9C5BF4924285F6000562CF3 /* MainTabBarViewController.swift in Sources */,
+				1176238B24287523004A13DB /* TextField.swift in Sources */,
 				A98FEF9D242807D80020E7C0 /* SplashPresenter.swift in Sources */,
 				A98FEF962427D1E80020E7C0 /* OnboardingStep2ViewController.swift in Sources */,
 				A943CD40242728FF0029B6B3 /* String+Localized.swift in Sources */,
 				A98FEF812427C6340020E7C0 /* PageViewController.swift in Sources */,
 				A98FEF942427D1D50020E7C0 /* OnboardingStep1ViewController.swift in Sources */,
+				117623892428728E004A13DB /* Authentication.swift in Sources */,
 				A98FEF892427C8950020E7C0 /* OnboardingPageContainerViewController.swift in Sources */,
 				A98FEF9F242807ED0020E7C0 /* SplashProtocol.swift in Sources */,
 				11EBCEB52427E4500037E79D /* Constants.swift in Sources */,
@@ -506,6 +525,7 @@
 				A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */,
 				A98FEF8D2427CB110020E7C0 /* OnboardingPageContainerPresenter.swift in Sources */,
 				A98FEF8B2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift in Sources */,
+				1176238724286E94004A13DB /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
