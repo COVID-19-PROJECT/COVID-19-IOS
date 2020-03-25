@@ -10,6 +10,7 @@ import UIKit
 
 enum FontWeight: String {
     
+    case black
     case bold
     case regular
     case light
@@ -22,6 +23,8 @@ enum FontWeight: String {
     
     func native() -> UIFont.Weight {
         switch self {
+        case .black:
+            return UIFont.Weight.black
         case .bold:
             return UIFont.Weight.bold
         case .regular:
@@ -39,8 +42,12 @@ enum FontWeight: String {
 
 extension UIFont {
     
-    static func `default`(size: CGFloat, weight: FontWeight) -> UIFont {
-        return UIFont(name: "Raleway-\(weight.name)", size: size)!
+    static func roboto(size: CGFloat, weight: FontWeight) -> UIFont {
+        return UIFont(name: "Roboto-\(weight.name)", size: size)!
+    }
+    
+    static func futura(size: CGFloat, weight: FontWeight) -> UIFont {
+        return UIFont(name: "Futura-\(weight.name)", size: size)!
     }
     
 }

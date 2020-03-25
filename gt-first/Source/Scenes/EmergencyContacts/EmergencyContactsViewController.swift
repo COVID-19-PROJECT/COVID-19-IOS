@@ -18,7 +18,12 @@ class EmergencyContactsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.attachView(view: self)
+        prepareUI()
         prepareTable()
+    }
+    
+    private func prepareUI() {
+        view.backgroundColor = .background
     }
     
     private func prepareTable() {
