@@ -14,6 +14,7 @@ class FAQPageContainerViewController: UIViewController {
     @IBOutlet weak var buttonCommunications: UIButton!
     @IBOutlet weak var viewRecommendations: UIView!
     @IBOutlet weak var viewCommunications: UIView!
+    @IBOutlet weak var viewButtons: UIView!
     
     var pageController: PageViewController?
     private let presenter = FAQPageContainerPresenter(apiManager: APIManager.shared)
@@ -35,6 +36,7 @@ class FAQPageContainerViewController: UIViewController {
     
     private func prepareUI() {
         view.backgroundColor = .background
+        viewButtons.addShadow(color: UIColor.gray.cgColor, opacity: 0.2, offset: CGSize(width: 0.0, height: 3.0), radius: 3.0)
         buttonCommunications.setTitleColor(.textDisable, for: .normal)
         buttonCommunications.alpha = 0.54
         viewCommunications.isHidden = true

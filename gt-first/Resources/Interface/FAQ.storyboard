@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tpo-SV-huu">
-                                <rect key="frame" x="0.0" y="148" width="414" height="665"/>
+                                <rect key="frame" x="0.0" y="153" width="414" height="660"/>
                                 <connections>
                                     <segue destination="sZq-NP-RHB" kind="embed" identifier="faqPagesSegue" id="jyy-si-7o4"/>
                                 </connections>
@@ -109,7 +109,7 @@
                         <color key="backgroundColor" name="background"/>
                         <constraints>
                             <constraint firstItem="ByM-n6-bc1" firstAttribute="trailing" secondItem="asq-9q-9wn" secondAttribute="trailing" id="EET-ae-Sxl"/>
-                            <constraint firstItem="Tpo-SV-huu" firstAttribute="top" secondItem="asq-9q-9wn" secondAttribute="bottom" constant="10" id="Q4V-Tt-2LT"/>
+                            <constraint firstItem="Tpo-SV-huu" firstAttribute="top" secondItem="asq-9q-9wn" secondAttribute="bottom" constant="15" id="Q4V-Tt-2LT"/>
                             <constraint firstItem="asq-9q-9wn" firstAttribute="top" secondItem="ByM-n6-bc1" secondAttribute="top" id="gWq-55-209"/>
                             <constraint firstItem="ByM-n6-bc1" firstAttribute="bottom" secondItem="Tpo-SV-huu" secondAttribute="bottom" id="hIC-jx-24Y"/>
                             <constraint firstItem="asq-9q-9wn" firstAttribute="leading" secondItem="ByM-n6-bc1" secondAttribute="leading" id="t87-lM-HJG"/>
@@ -126,6 +126,7 @@
                     <connections>
                         <outlet property="buttonCommunications" destination="nCd-a9-449" id="tcr-kj-yAk"/>
                         <outlet property="buttonRecommendations" destination="T3h-uI-L0l" id="t6x-sH-DX0"/>
+                        <outlet property="viewButtons" destination="asq-9q-9wn" id="qqc-2J-kOL"/>
                         <outlet property="viewCommunications" destination="MRR-Ky-Uk9" id="A10-Wr-gB7"/>
                         <outlet property="viewRecommendations" destination="7JA-eG-WQp" id="UUr-KC-ruZ"/>
                     </connections>
@@ -220,7 +221,7 @@
             <color red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="textBlue">
-            <color red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20000000298023224" green="0.40000000596046448" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
