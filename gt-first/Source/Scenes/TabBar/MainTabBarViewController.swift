@@ -16,6 +16,14 @@ class MainTabBarViewController: UITabBarController, UIViewControllerTransitionin
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        prepareUI()
+    }
+    
+    private func prepareUI() {
+        tabBar.isTranslucent = false
+        tabBar.barTintColor = .mainBlue
+        tabBar.tintColor = .white
+        tabBar.unselectedItemTintColor = .unselectedBarItem
     }
     
     override func viewDidAppear(_ animated: Bool) {

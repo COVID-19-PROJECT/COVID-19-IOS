@@ -15,6 +15,7 @@ public struct K {
         case Onboarding = "Onboarding"
         case Splash = "Splash"
         case Login = "Login"
+        case FAQ = "FAQ"
         
         var value: UIStoryboard {
             return  UIStoryboard(name: self.rawValue, bundle: nil)
