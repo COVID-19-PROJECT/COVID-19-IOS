@@ -17,10 +17,6 @@ class OnboardingStep1ViewController: UIViewController {
         prepareUI()
     }
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
-    
     private func prepareUI() {
         
     }

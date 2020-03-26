@@ -11,24 +11,16 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    let headerView: StatisticsView? = {
-        guard let header = Bundle.main.loadNibNamed("StatisticsView", owner: self, options: nil)?.first as? StatisticsView else {
-            return nil
-        }
-        header.translatesAutoresizingMaskIntoConstraints = false
-        return header
-    }()
+    @IBOutlet weak var viewStatsContainer: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let statistics = headerView {
-            view.addSubview(statistics)
-            statistics.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-            statistics.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-            statistics.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-            statistics.heightAnchor.constraint(equalToConstant: 120).isActive = true
-            statistics.setStatistics(confirmed: "80", actives: "40", recovered: "30", deaths: "10")
-        }
+        prepareUI()
+    }
+    
+    private func prepareUI() {
+        viewStatsContainer.layer.cornerRadius = 5.0
+        viewStatsContainer.addShadow(color: UIColor.black.cgColor, opacity: 0.2, offset: .zero, radius: 3.0)
     }
     
 }

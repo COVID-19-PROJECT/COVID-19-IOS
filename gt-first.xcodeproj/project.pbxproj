@@ -71,6 +71,7 @@
 		A9F30612242C6A1C00F82628 /* Futura-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9F30611242C69FC00F82628 /* Futura-Light.otf */; };
 		A9F30615242C6EC200F82628 /* OnboardingStep4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F30614242C6EC200F82628 /* OnboardingStep4ViewController.swift */; };
 		A9F30618242C726500F82628 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F30617242C726500F82628 /* LoginViewController.swift */; };
+		A9FB5EBB242C7DF0003FF2CA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FB5EBA242C7DE9003FF2CA /* Roboto-Bold.ttf */; };
 		CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */; };
 		CDEC98B0242996CB009ED1D4 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */; };
 		CDEC98B2242998CF009ED1D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */; };
@@ -149,6 +150,7 @@
 		A9F30611242C69FC00F82628 /* Futura-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Light.otf"; sourceTree = "<group>"; };
 		A9F30614242C6EC200F82628 /* OnboardingStep4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep4ViewController.swift; sourceTree = "<group>"; };
 		A9F30617242C726500F82628 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A9FB5EBA242C7DE9003FF2CA /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsView.xib; sourceTree = "<group>"; };
 		CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -503,6 +505,7 @@
 				A9ED1580242AD71700831E9A /* Roboto-Black.ttf */,
 				A9ED157E242AD71600831E9A /* Roboto-Italic.ttf */,
 				A9ED1581242AD71700831E9A /* Roboto-Light.ttf */,
+				A9FB5EBA242C7DE9003FF2CA /* Roboto-Bold.ttf */,
 				A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */,
 				A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */,
 				A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */,
@@ -631,6 +634,7 @@
 				A9ED1588242AD77100831E9A /* Roboto-Thin.ttf in Resources */,
 				A9ED1584242AD76500831E9A /* Roboto-Italic.ttf in Resources */,
 				A9C5BF4724285CC400562CF3 /* Profile.storyboard in Resources */,
+				A9FB5EBB242C7DF0003FF2CA /* Roboto-Bold.ttf in Resources */,
 				A9C5BF4124285C3500562CF3 /* EmergencyContact.storyboard in Resources */,
 				A9ED1587242AD76F00831E9A /* Roboto-Regular.ttf in Resources */,
 				A9C5BF4524285CB300562CF3 /* Stats.storyboard in Resources */,
