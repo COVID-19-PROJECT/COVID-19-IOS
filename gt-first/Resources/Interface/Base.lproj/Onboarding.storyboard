@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9d2-z8-umz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9d2-z8-umz">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Black.ttf">
+            <string>Roboto-Black</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Onboarding Page Container View Controller-->
         <scene sceneID="rZl-GB-K1D">
@@ -51,8 +56,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Nll-Td-BvO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <state key="normal" title="Continuar"/>
+                                <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="16"/>
+                                <state key="normal" title="CONTINUAR"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -68,7 +73,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VQb-ZQ-WWO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingStep1" translatesAutoresizingMaskIntoConstraints="NO" id="VQb-ZQ-WWO">
                                 <rect key="frame" x="20" y="74" width="374" height="374"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="VQb-ZQ-WWO" secondAttribute="height" id="fhf-if-mrQ"/>
@@ -125,8 +130,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="3rL-04-7LR"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <state key="normal" title="Continuar"/>
+                                <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="16"/>
+                                <state key="normal" title="CONTINUAR"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -142,7 +147,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vbv-dS-Ugb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingStep2" translatesAutoresizingMaskIntoConstraints="NO" id="Vbv-dS-Ugb">
                                 <rect key="frame" x="20" y="74" width="374" height="374"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Vbv-dS-Ugb" secondAttribute="height" id="GCY-LZ-cHM"/>
@@ -191,8 +196,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="L8Q-CH-NWL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <state key="normal" title="Continuar"/>
+                                <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="16"/>
+                                <state key="normal" title="CONTINUAR"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -208,8 +213,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BQz-l0-vcP">
-                                <rect key="frame" x="20" y="74" width="374" height="374"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingStep3" translatesAutoresizingMaskIntoConstraints="NO" id="BQz-l0-vcP">
+                                <rect key="frame" x="20" y="73.999999999999972" width="374" height="374.00000000000006"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BQz-l0-vcP" secondAttribute="height" id="A85-nh-9N8"/>
                                 </constraints>
@@ -246,6 +251,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="onboardingStep1" width="283" height="105"/>
+        <image name="onboardingStep2" width="236" height="269"/>
+        <image name="onboardingStep3" width="244" height="249"/>
         <namedColor name="mainBlue">
             <color red="0.094117647058823528" green="0.21176470588235294" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

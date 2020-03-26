@@ -30,7 +30,7 @@ class SplashPresenter {
     
     func requestConfig() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            let board = !self.isFirstLaunch
+            let board = self.isFirstLaunch
                 ? K.Storyboards.Onboarding.value
                 : Authentication.default.isAuthenticated
                 ? K.Storyboards.Main.value
