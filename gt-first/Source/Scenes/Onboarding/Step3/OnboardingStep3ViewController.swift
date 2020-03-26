@@ -10,6 +10,8 @@ import UIKit
 
 class OnboardingStep3ViewController: UIViewController {
 
+    @IBOutlet weak var buttonNext: Button!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         prepareUI()
@@ -19,4 +21,8 @@ class OnboardingStep3ViewController: UIViewController {
         
     }
 
+    @IBAction func buttonNextTap(_ sender: Any) {
+   
+    }
+    
 }

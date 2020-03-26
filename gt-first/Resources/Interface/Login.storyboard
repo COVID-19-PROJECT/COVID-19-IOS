@@ -16,10 +16,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="MQJ-E9-ek0">
             <objects>
-                <viewController id="3FL-vR-fTs" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginView" id="3FL-vR-fTs" customClass="LoginViewController" customModule="QuedateEnCasa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xrc-mt-FU2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="meX-NW-hbp" kind="show" id="JJH-oJ-aYm"/>
+                                    <action selector="buttonRegisterTap:" destination="3FL-vR-fTs" eventType="touchUpInside" id="XXP-ia-hWi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6Q-gm-jnF" customClass="Button" customModule="QuedateEnCasa" customModuleProvider="target">
@@ -231,20 +231,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zKf-wc-sdT"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonRegister" destination="BAc-V6-wnl" id="Lps-Xj-Jld"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Avb-TR-x0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-565.21739130434787" y="-46.205357142857139"/>
-        </scene>
-        <!--Main-->
-        <scene sceneID="lxg-89-X09">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="meX-NW-hbp" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="uHE-Vv-pmv"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1bJ-mb-f4m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="44" y="-46"/>
         </scene>
     </scenes>
     <resources>

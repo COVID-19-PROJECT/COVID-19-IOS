@@ -19,6 +19,10 @@ class OnboardingPageContainerViewController: UIViewController {
         prepareUI()
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
         if let viewController = segue.destination as? PageViewController, segue.identifier == "onboardingSegue" {

@@ -18,6 +18,10 @@ class SplashViewController: UIViewController {
         presenter.requestConfig()
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     private func prepareUI() {
         
     }

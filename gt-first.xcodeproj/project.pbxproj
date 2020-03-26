@@ -68,6 +68,9 @@
 		A9ED1586242AD76B00831E9A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */; };
 		A9ED1587242AD76F00831E9A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */; };
 		A9ED1588242AD77100831E9A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */; };
+		A9F30612242C6A1C00F82628 /* Futura-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9F30611242C69FC00F82628 /* Futura-Light.otf */; };
+		A9F30615242C6EC200F82628 /* OnboardingStep4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F30614242C6EC200F82628 /* OnboardingStep4ViewController.swift */; };
+		A9F30618242C726500F82628 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F30617242C726500F82628 /* LoginViewController.swift */; };
 		CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */; };
 		CDEC98B0242996CB009ED1D4 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */; };
 		CDEC98B2242998CF009ED1D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */; };
@@ -143,6 +146,9 @@
 		A9ED1580242AD71700831E9A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		A9ED1581242AD71700831E9A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A9F30611242C69FC00F82628 /* Futura-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Light.otf"; sourceTree = "<group>"; };
+		A9F30614242C6EC200F82628 /* OnboardingStep4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep4ViewController.swift; sourceTree = "<group>"; };
+		A9F30617242C726500F82628 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsView.xib; sourceTree = "<group>"; };
 		CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -240,7 +246,6 @@
 				A98FEF902427CCC60020E7C0 /* APIManager */,
 				A943CD2524270BF70029B6B3 /* AppDelegate */,
 				1176238524286E64004A13DB /* Controls */,
-				CDEC98A424298F9C009ED1D4 /* Features */,
 				A943CD3E242728E10029B6B3 /* Helpers */,
 				A943CD41242729380029B6B3 /* Models */,
 				A943CD262427258C0029B6B3 /* Scenes */,
@@ -278,6 +283,8 @@
 			children = (
 				A9C5BF4A2428697500562CF3 /* EmergencyContacts */,
 				A9ED1562242ACA0E00831E9A /* FAQ */,
+				CDEC98A524298FC2009ED1D4 /* Home */,
+				A9F30616242C724B00F82628 /* Login */,
 				A98FEF7C2427C5AA0020E7C0 /* Onboarding */,
 				A98FEF992427EA510020E7C0 /* Splash */,
 				A98FEFA024280E350020E7C0 /* TabBar */,
@@ -329,6 +336,7 @@
 				A98FEF852427C7E60020E7C0 /* Step1 */,
 				A98FEF862427C7EC0020E7C0 /* Step2 */,
 				A98FEF872427C7F20020E7C0 /* Step3 */,
+				A9F30613242C6EA700F82628 /* Step4 */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -498,18 +506,27 @@
 				A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */,
 				A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */,
 				A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */,
+				A9F30611242C69FC00F82628 /* Futura-Light.otf */,
 				A9ED1579242AD68500831E9A /* Futura-Bold.ttf */,
 				A9ED157A242AD68500831E9A /* Futura-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		CDEC98A424298F9C009ED1D4 /* Features */ = {
+		A9F30613242C6EA700F82628 /* Step4 */ = {
 			isa = PBXGroup;
 			children = (
-				CDEC98A524298FC2009ED1D4 /* Home */,
+				A9F30614242C6EC200F82628 /* OnboardingStep4ViewController.swift */,
 			);
-			path = Features;
+			path = Step4;
+			sourceTree = "<group>";
+		};
+		A9F30616242C724B00F82628 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A9F30617242C726500F82628 /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		CDEC98A524298FC2009ED1D4 /* Home */ = {
@@ -603,6 +620,7 @@
 				A9ED157B242AD69600831E9A /* Futura-Bold.ttf in Resources */,
 				A943CD1A24270ADC0029B6B3 /* LaunchScreen.storyboard in Resources */,
 				CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */,
+				A9F30612242C6A1C00F82628 /* Futura-Light.otf in Resources */,
 				A9ED1585242AD76800831E9A /* Roboto-Light.ttf in Resources */,
 				A943CD30242727B30029B6B3 /* Localizable.strings in Resources */,
 				A943CD1724270ADC0029B6B3 /* Assets.xcassets in Resources */,
@@ -676,6 +694,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F30618242C726500F82628 /* LoginViewController.swift in Sources */,
 				A98FEF832427C7010020E7C0 /* PageChangeProtocol.swift in Sources */,
 				A9ED156B242ACCC900831E9A /* FAQPageContainerProtocol.swift in Sources */,
 				11EBCEB32427E0C20037E79D /* Storage.swift in Sources */,
@@ -716,6 +735,7 @@
 				A98FEF8B2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift in Sources */,
 				1176238724286E94004A13DB /* Button.swift in Sources */,
 				A9C5BF4E242869A400562CF3 /* EmergencyContactsPresenter.swift in Sources */,
+				A9F30615242C6EC200F82628 /* OnboardingStep4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,13 +10,23 @@ import UIKit
 
 class OnboardingStep2ViewController: UIViewController {
 
+    @IBOutlet weak var buttonNext: Button!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         prepareUI()
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     private func prepareUI() {
         
     }
-
+    
+    @IBAction func buttonNextTap(_ sender: Any) {
+    
+    }
+    
 }
