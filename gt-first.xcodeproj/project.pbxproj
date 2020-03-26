@@ -50,6 +50,9 @@
 		A9C5BF5524286D5F00562CF3 /* EmergencyContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */; };
 		A9C5BF5724287AD400562CF3 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
+		CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */; };
+		CDEC98B0242996CB009ED1D4 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */; };
+		CDEC98B2242998CF009ED1D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */; };
 		A9ED1561242AC54D00831E9A /* FAQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ED1560242AC54D00831E9A /* FAQ.storyboard */; };
 		A9ED1567242ACC1400831E9A /* FAQPageContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1566242ACC1400831E9A /* FAQPageContainerViewController.swift */; };
 		A9ED1569242ACCBE00831E9A /* FAQPageContainerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1568242ACCBE00831E9A /* FAQPageContainerPresenter.swift */; };
@@ -144,6 +147,9 @@
 		A9ED1581242AD71700831E9A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsView.xib; sourceTree = "<group>"; };
+		CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +241,7 @@
 		A943CD2324270B2A0029B6B3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				CDEC98A424298F9C009ED1D4 /* Features */,
 				1176238524286E64004A13DB /* Controls */,
 				A98FEF902427CCC60020E7C0 /* APIManager */,
 				A943CD2524270BF70029B6B3 /* AppDelegate */,
@@ -446,6 +453,32 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		CDEC98A424298F9C009ED1D4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98A524298FC2009ED1D4 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CDEC98A524298FC2009ED1D4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98A624298FCC009ED1D4 /* Views */,
+				CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CDEC98A624298FCC009ED1D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */,
+				CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A9ED1562242ACA0E00831E9A /* FAQ */ = {
 			isa = PBXGroup;
 			children = (
@@ -628,6 +661,7 @@
 			files = (
 				A9ED157B242AD69600831E9A /* Futura-Bold.ttf in Resources */,
 				A943CD1A24270ADC0029B6B3 /* LaunchScreen.storyboard in Resources */,
+				CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */,
 				A9ED1585242AD76800831E9A /* Roboto-Light.ttf in Resources */,
 				A943CD30242727B30029B6B3 /* Localizable.strings in Resources */,
 				A943CD1724270ADC0029B6B3 /* Assets.xcassets in Resources */,
@@ -712,6 +746,7 @@
 				A9C5BF4C2428699900562CF3 /* EmergencyContactsViewController.swift in Sources */,
 				A9ED1571242ACFB300831E9A /* FAQCommunicationsPresenter.swift in Sources */,
 				A943CD40242728FF0029B6B3 /* String+Localized.swift in Sources */,
+				CDEC98B2242998CF009ED1D4 /* HomeViewController.swift in Sources */,
 				A98FEF812427C6340020E7C0 /* PageViewController.swift in Sources */,
 				A98FEF942427D1D50020E7C0 /* OnboardingStep1ViewController.swift in Sources */,
 				117623892428728E004A13DB /* Authentication.swift in Sources */,
@@ -732,6 +767,7 @@
 				A9ED1577242ACFDD00831E9A /* FAQRecommendationsPresenter.swift in Sources */,
 				A943CD0E24270AD90029B6B3 /* AppDelegate.swift in Sources */,
 				A98FEF922427CCD80020E7C0 /* APIManager.swift in Sources */,
+				CDEC98B0242996CB009ED1D4 /* StatisticsView.swift in Sources */,
 				A9ED1573242ACFC800831E9A /* FAQRecommendationsViewController.swift in Sources */,
 				A9ED156F242ACFA900831E9A /* FAQCommunicationsProtocol.swift in Sources */,
 				A9C5BF5424286D5F00562CF3 /* EmergencyContactCell.swift in Sources */,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MDk-2w-aL0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xdh-hP-w1w">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Apu-RD-KjK">
             <objects>
-                <viewController id="MDk-2w-aL0" sceneMemberID="viewController">
+                <viewController id="MDk-2w-aL0" customClass="HomeViewController" customModule="QuedateEnCasa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HcN-t2-Ksv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,14 +19,34 @@
                         <viewLayoutGuide key="safeArea" id="fKu-Xq-uhz"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="ico_home" id="OlC-BF-wbb"/>
+                    <navigationItem key="navigationItem" id="ch5-R8-a7Z">
+                        <barButtonItem key="rightBarButtonItem" image="ico_user" id="bkA-iI-9b2"/>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DoG-Fk-VJB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-130" y="122"/>
+            <point key="canvasLocation" x="400" y="-98"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Xvl-Vi-E61">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IX8-SH-4xN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="xdh-hP-w1w" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4Iw-M0-ESt">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MDk-2w-aL0" kind="relationship" relationship="rootViewController" id="kBu-G8-Eb0"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-377" y="-98"/>
         </scene>
     </scenes>
     <resources>
         <image name="ico_home" width="25" height="22"/>
+        <image name="ico_user" width="20" height="20"/>
     </resources>
 </document>
