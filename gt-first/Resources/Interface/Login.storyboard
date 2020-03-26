@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3FL-vR-fTs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3FL-vR-fTs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Black.ttf">
+            <string>Roboto-Black</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="MQJ-E9-ek0">
@@ -21,8 +29,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="whb-H0-I46"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <state key="normal" title="Continuar con Facebook"/>
+                                <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="16"/>
+                                <state key="normal" title="CREA TU CUENTA Y APOYA"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -35,35 +43,35 @@
                                     <segue destination="meX-NW-hbp" kind="show" id="JJH-oJ-aYm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6Q-gm-jnF" customClass="Button" customModule="QuedateEnCasa" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6Q-gm-jnF" customClass="Button" customModule="QuedateEnCasa" customModuleProvider="target">
                                 <rect key="frame" x="171" y="604" width="72" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="Uma-eC-Ea2"/>
                                     <constraint firstAttribute="height" constant="72" id="dMp-dL-4W0"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" backgroundImage="ico_google"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                         <color key="value" systemColor="tertiarySystemFillColor" red="0.46274509800000002" green="0.46274509800000002" blue="0.50196078430000002" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isRounded" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isPrimary" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dB6-xA-Nh0">
-                                <rect key="frame" x="41.5" y="706" width="331.5" height="66"/>
+                                <rect key="frame" x="65.5" y="706" width="283" height="66"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acepto los términos y condiciones" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8V3-V7-usl">
-                                        <rect key="frame" x="69" y="0.0" width="262.5" height="66"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="69" y="0.0" width="214" height="66"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dci-6R-1BV">
                                         <rect key="frame" x="0.0" y="17.5" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.20124125479999999" green="0.40032681819999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </switch>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -84,6 +92,7 @@
                                     <constraint firstAttribute="width" constant="72" id="pdj-FF-tC8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" backgroundImage="ico_twitter"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="0.1764705882352941" green="0.66666666666666663" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -101,6 +110,7 @@
                                     <constraint firstAttribute="width" constant="72" id="eE0-IN-ptS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" backgroundImage="ico_facebook"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="0.25882352941176467" green="0.40000000000000002" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -112,9 +122,15 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGb-xu-nXf">
-                                <rect key="frame" x="20" y="304" width="374" height="270"/>
+                                <rect key="frame" x="20" y="284" width="374" height="290"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Siempre hemos logrado salir adelante en cualquier situación. Ahora lo lograremos, ">
+                                    <fragment content="Siempre hemos logrado salir adelante en cualquier situación. Ahora lo lograremos,">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Roboto-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
                                         <attributes>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -127,17 +143,23 @@
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content=". Ayúdanos a recolectar datos para evitar el contagio de Coronavirus en Guatemala.">
+                                    <fragment content=". ">
                                         <attributes>
                                             <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Ayúdanos a recolectar datos para evitar el contagio de COVID-19 en Guatemala.">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Roboto-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Fc4-SU-iz2">
-                                <rect key="frame" x="20" y="74" width="374" height="200"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Fc4-SU-iz2">
+                                <rect key="frame" x="20" y="54" width="374" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="kfN-cn-isb"/>
                                 </constraints>
@@ -160,7 +182,7 @@
                             <constraint firstItem="Ev8-gr-okF" firstAttribute="top" secondItem="X6Q-gm-jnF" secondAttribute="top" id="afg-Ac-LFK"/>
                             <constraint firstItem="BAc-V6-wnl" firstAttribute="leading" secondItem="zKf-wc-sdT" secondAttribute="leading" constant="20" id="chy-0x-D4L"/>
                             <constraint firstItem="Fc4-SU-iz2" firstAttribute="leading" secondItem="zKf-wc-sdT" secondAttribute="leading" constant="20" id="cwy-J3-ZG3"/>
-                            <constraint firstItem="Fc4-SU-iz2" firstAttribute="top" secondItem="zKf-wc-sdT" secondAttribute="top" constant="30" id="d4Q-4z-cfd"/>
+                            <constraint firstItem="Fc4-SU-iz2" firstAttribute="top" secondItem="zKf-wc-sdT" secondAttribute="top" constant="10" id="d4Q-4z-cfd"/>
                             <constraint firstItem="KGb-xu-nXf" firstAttribute="leading" secondItem="zKf-wc-sdT" secondAttribute="leading" constant="20" id="fSJ-3r-cDD"/>
                             <constraint firstItem="dB6-xA-Nh0" firstAttribute="centerX" secondItem="zKf-wc-sdT" secondAttribute="centerX" id="gve-kN-2kJ"/>
                             <constraint firstItem="zKf-wc-sdT" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dB6-xA-Nh0" secondAttribute="trailing" constant="20" id="wET-r6-QRr"/>
@@ -185,6 +207,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="splashLogo" width="366" height="374"/>
+        <image name="ico_facebook" width="56" height="56"/>
+        <image name="ico_google" width="56" height="56"/>
+        <image name="ico_twitter" width="56" height="56"/>
+        <image name="loginLogo" width="283" height="105"/>
     </resources>
 </document>
