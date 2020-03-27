@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9d2-z8-umz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9d2-z8-umz">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -92,7 +92,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Podemos evitar que el virus se propague, solo con saber en dónde has estado, así identificaremos áreas vulnerables." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jd1-dW-Keu">
-                                <rect key="frame" x="30" y="439" width="354" height="103"/>
+                                <rect key="frame" x="30" y="439" width="354" height="106"/>
                                 <fontDescription key="fontDescription" name="FuturaBT-Light" family="Futura" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -163,12 +163,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solamente se mostrarán las áreas de riesgo, nunca tu ubicación." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhd-f4-UfS">
-                                <rect key="frame" x="20" y="539" width="374" height="56"/>
+                                <rect key="frame" x="20" y="539" width="374" height="58"/>
                                 <fontDescription key="fontDescription" name="FuturaBT-Light" family="Futura" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingStep2" translatesAutoresizingMaskIntoConstraints="NO" id="Vbv-dS-Ugb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingStep4" translatesAutoresizingMaskIntoConstraints="NO" id="Vbv-dS-Ugb">
                                 <rect key="frame" x="30" y="74" width="354" height="354"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Vbv-dS-Ugb" secondAttribute="height" id="GCY-LZ-cHM"/>
@@ -241,7 +241,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Podemos evitar que el virus se  propague, solo con saber en dónde has estado, así identificaremos áreas vulverables." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWz-Wx-HqI">
-                                <rect key="frame" x="30" y="448" width="354" height="140"/>
+                                <rect key="frame" x="30" y="448" width="354" height="115.5"/>
                                 <fontDescription key="fontDescription" name="FuturaBT-Light" family="Futura" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -298,7 +298,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ayúdanos con todos los detalles de tus ubicaciones, es esencial." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-DZ-Fbk">
-                                <rect key="frame" x="20" y="519" width="374" height="56"/>
+                                <rect key="frame" x="20" y="519" width="374" height="58"/>
                                 <fontDescription key="fontDescription" name="FuturaBT-Light" family="Futura" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -347,6 +347,7 @@
         <image name="onboardingStep1" width="283" height="105"/>
         <image name="onboardingStep2" width="236" height="269"/>
         <image name="onboardingStep3" width="244" height="249"/>
+        <image name="onboardingStep4" width="336" height="385"/>
         <namedColor name="mainBlue">
             <color red="0.094117647058823528" green="0.21176470588235294" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
