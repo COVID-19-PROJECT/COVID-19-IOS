@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,9 +50,6 @@
 		A9C5BF5524286D5F00562CF3 /* EmergencyContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C5BF5324286D5F00562CF3 /* EmergencyContactCell.xib */; };
 		A9C5BF5724287AD400562CF3 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5BF5624287AD400562CF3 /* UIView+Layer.swift */; };
 		A9E740FF2427BF7A00C18748 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E740FE2427BF7A00C18748 /* UIFont+CustomFont.swift */; };
-		CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */; };
-		CDEC98B0242996CB009ED1D4 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */; };
-		CDEC98B2242998CF009ED1D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */; };
 		A9ED1561242AC54D00831E9A /* FAQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ED1560242AC54D00831E9A /* FAQ.storyboard */; };
 		A9ED1567242ACC1400831E9A /* FAQPageContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1566242ACC1400831E9A /* FAQPageContainerViewController.swift */; };
 		A9ED1569242ACCBE00831E9A /* FAQPageContainerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED1568242ACCBE00831E9A /* FAQPageContainerPresenter.swift */; };
@@ -71,8 +68,14 @@
 		A9ED1586242AD76B00831E9A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */; };
 		A9ED1587242AD76F00831E9A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */; };
 		A9ED1588242AD77100831E9A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */; };
+		A9F30612242C6A1C00F82628 /* Futura-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9F30611242C69FC00F82628 /* Futura-Light.otf */; };
+		A9F30615242C6EC200F82628 /* OnboardingStep4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F30614242C6EC200F82628 /* OnboardingStep4ViewController.swift */; };
+		A9F30618242C726500F82628 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F30617242C726500F82628 /* LoginViewController.swift */; };
+		A9FB5EBB242C7DF0003FF2CA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FB5EBA242C7DE9003FF2CA /* Roboto-Bold.ttf */; };
+		CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */; };
+		CDEC98B0242996CB009ED1D4 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */; };
+		CDEC98B2242998CF009ED1D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */; };
 		F0E45914083BEDE5BBDFBA87 /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C833EFDA6F4442280F60F7 /* Pods_gt_first.framework */; };
-		F35BD312BABAA091EC4A33CE /* Pods_gt_first.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,8 +87,6 @@
 		11EBCEB42427E4500037E79D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A629D123CA5AF47344B2B859 /* Pods-gt-first.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.release.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.release.xcconfig"; sourceTree = "<group>"; };
 		A7C833EFDA6F4442280F60F7 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57AADA9CB56A55BAB16041D1 /* Pods-gt-first.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.release.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.release.xcconfig"; sourceTree = "<group>"; };
-		92A12A19CE697800430E0ACD /* Pods-gt-first.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gt-first.debug.xcconfig"; path = "Target Support Files/Pods-gt-first/Pods-gt-first.debug.xcconfig"; sourceTree = "<group>"; };
 		A943CD0A24270AD90029B6B3 /* QuedateEnCasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuedateEnCasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A943CD0D24270AD90029B6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A943CD1124270AD90029B6B3 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -146,7 +147,10 @@
 		A9ED1580242AD71700831E9A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		A9ED1581242AD71700831E9A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		C7D168D0D1AE28EFCD56B461 /* Pods_gt_first.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gt_first.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F30611242C69FC00F82628 /* Futura-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Light.otf"; sourceTree = "<group>"; };
+		A9F30614242C6EC200F82628 /* OnboardingStep4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep4ViewController.swift; sourceTree = "<group>"; };
+		A9F30617242C726500F82628 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A9FB5EBA242C7DE9003FF2CA /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsView.xib; sourceTree = "<group>"; };
 		CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -241,10 +245,9 @@
 		A943CD2324270B2A0029B6B3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				CDEC98A424298F9C009ED1D4 /* Features */,
-				1176238524286E64004A13DB /* Controls */,
 				A98FEF902427CCC60020E7C0 /* APIManager */,
 				A943CD2524270BF70029B6B3 /* AppDelegate */,
+				1176238524286E64004A13DB /* Controls */,
 				A943CD3E242728E10029B6B3 /* Helpers */,
 				A943CD41242729380029B6B3 /* Models */,
 				A943CD262427258C0029B6B3 /* Scenes */,
@@ -282,6 +285,8 @@
 			children = (
 				A9C5BF4A2428697500562CF3 /* EmergencyContacts */,
 				A9ED1562242ACA0E00831E9A /* FAQ */,
+				CDEC98A524298FC2009ED1D4 /* Home */,
+				A9F30616242C724B00F82628 /* Login */,
 				A98FEF7C2427C5AA0020E7C0 /* Onboarding */,
 				A98FEF992427EA510020E7C0 /* Splash */,
 				A98FEFA024280E350020E7C0 /* TabBar */,
@@ -333,6 +338,7 @@
 				A98FEF852427C7E60020E7C0 /* Step1 */,
 				A98FEF862427C7EC0020E7C0 /* Step2 */,
 				A98FEF872427C7F20020E7C0 /* Step3 */,
+				A9F30613242C6EA700F82628 /* Step4 */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -453,32 +459,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		CDEC98A424298F9C009ED1D4 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				CDEC98A524298FC2009ED1D4 /* Home */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		CDEC98A524298FC2009ED1D4 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				CDEC98A624298FCC009ED1D4 /* Views */,
-				CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		CDEC98A624298FCC009ED1D4 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */,
-				CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		A9ED1562242ACA0E00831E9A /* FAQ */ = {
 			isa = PBXGroup;
 			children = (
@@ -525,68 +505,49 @@
 				A9ED1580242AD71700831E9A /* Roboto-Black.ttf */,
 				A9ED157E242AD71600831E9A /* Roboto-Italic.ttf */,
 				A9ED1581242AD71700831E9A /* Roboto-Light.ttf */,
+				A9FB5EBA242C7DE9003FF2CA /* Roboto-Bold.ttf */,
 				A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */,
 				A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */,
 				A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */,
+				A9F30611242C69FC00F82628 /* Futura-Light.otf */,
 				A9ED1579242AD68500831E9A /* Futura-Bold.ttf */,
 				A9ED157A242AD68500831E9A /* Futura-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		DC80EBF052EC6746B7CA7B7C /* Frameworks */ = {
+		A9F30613242C6EA700F82628 /* Step4 */ = {
 			isa = PBXGroup;
 			children = (
-				A9ED1565242ACA5500831E9A /* Communications */,
-				A9ED1563242ACA1800831E9A /* PageContainer */,
-				A9ED1564242ACA2100831E9A /* Recomendations */,
+				A9F30614242C6EC200F82628 /* OnboardingStep4ViewController.swift */,
 			);
-			path = FAQ;
+			path = Step4;
 			sourceTree = "<group>";
 		};
-		A9ED1563242ACA1800831E9A /* PageContainer */ = {
+		A9F30616242C724B00F82628 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				A9ED1568242ACCBE00831E9A /* FAQPageContainerPresenter.swift */,
-				A9ED156A242ACCC900831E9A /* FAQPageContainerProtocol.swift */,
-				A9ED1566242ACC1400831E9A /* FAQPageContainerViewController.swift */,
+				A9F30617242C726500F82628 /* LoginViewController.swift */,
 			);
-			path = PageContainer;
+			path = Login;
 			sourceTree = "<group>";
 		};
-		A9ED1564242ACA2100831E9A /* Recomendations */ = {
+		CDEC98A524298FC2009ED1D4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A9ED1576242ACFDD00831E9A /* FAQRecommendationsPresenter.swift */,
-				A9ED1574242ACFD300831E9A /* FAQRecommendationsProtocol.swift */,
-				A9ED1572242ACFC800831E9A /* FAQRecommendationsViewController.swift */,
+				CDEC98A624298FCC009ED1D4 /* Views */,
+				CDEC98B1242998CF009ED1D4 /* HomeViewController.swift */,
 			);
-			path = Recomendations;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		A9ED1565242ACA5500831E9A /* Communications */ = {
+		CDEC98A624298FCC009ED1D4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A9ED1570242ACFB300831E9A /* FAQCommunicationsPresenter.swift */,
-				A9ED156E242ACFA900831E9A /* FAQCommunicationsProtocol.swift */,
-				A9ED156C242ACF9D00831E9A /* FAQCommunicationsViewController.swift */,
+				CDEC98AD242994A4009ED1D4 /* StatisticsView.xib */,
+				CDEC98AF242996CB009ED1D4 /* StatisticsView.swift */,
 			);
-			path = Communications;
-			sourceTree = "<group>";
-		};
-		A9ED1578242AD64000831E9A /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				A9ED1580242AD71700831E9A /* Roboto-Black.ttf */,
-				A9ED157E242AD71600831E9A /* Roboto-Italic.ttf */,
-				A9ED1581242AD71700831E9A /* Roboto-Light.ttf */,
-				A9ED1582242AD71700831E9A /* Roboto-Medium.ttf */,
-				A9ED157D242AD71600831E9A /* Roboto-Regular.ttf */,
-				A9ED157F242AD71600831E9A /* Roboto-Thin.ttf */,
-				A9ED1579242AD68500831E9A /* Futura-Bold.ttf */,
-				A9ED157A242AD68500831E9A /* Futura-Medium.ttf */,
-			);
-			path = Fonts;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F33BFC1A30D23563A5AB9C83 /* Pods */ = {
@@ -662,6 +623,7 @@
 				A9ED157B242AD69600831E9A /* Futura-Bold.ttf in Resources */,
 				A943CD1A24270ADC0029B6B3 /* LaunchScreen.storyboard in Resources */,
 				CDEC98AE242994A4009ED1D4 /* StatisticsView.xib in Resources */,
+				A9F30612242C6A1C00F82628 /* Futura-Light.otf in Resources */,
 				A9ED1585242AD76800831E9A /* Roboto-Light.ttf in Resources */,
 				A943CD30242727B30029B6B3 /* Localizable.strings in Resources */,
 				A943CD1724270ADC0029B6B3 /* Assets.xcassets in Resources */,
@@ -672,6 +634,7 @@
 				A9ED1588242AD77100831E9A /* Roboto-Thin.ttf in Resources */,
 				A9ED1584242AD76500831E9A /* Roboto-Italic.ttf in Resources */,
 				A9C5BF4724285CC400562CF3 /* Profile.storyboard in Resources */,
+				A9FB5EBB242C7DF0003FF2CA /* Roboto-Bold.ttf in Resources */,
 				A9C5BF4124285C3500562CF3 /* EmergencyContact.storyboard in Resources */,
 				A9ED1587242AD76F00831E9A /* Roboto-Regular.ttf in Resources */,
 				A9C5BF4524285CB300562CF3 /* Stats.storyboard in Resources */,
@@ -735,6 +698,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F30618242C726500F82628 /* LoginViewController.swift in Sources */,
 				A98FEF832427C7010020E7C0 /* PageChangeProtocol.swift in Sources */,
 				A9ED156B242ACCC900831E9A /* FAQPageContainerProtocol.swift in Sources */,
 				11EBCEB32427E0C20037E79D /* Storage.swift in Sources */,
@@ -775,6 +739,7 @@
 				A98FEF8B2427CB060020E7C0 /* OnboardingPageContainerProtocol.swift in Sources */,
 				1176238724286E94004A13DB /* Button.swift in Sources */,
 				A9C5BF4E242869A400562CF3 /* EmergencyContactsPresenter.swift in Sources */,
+				A9F30615242C6EC200F82628 /* OnboardingStep4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

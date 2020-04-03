@@ -31,7 +31,8 @@ class OnboardingPageContainerPresenter {
         return [
             storyBoard.instantiateViewController(withIdentifier: "OnboardingStep1View"),
             storyBoard.instantiateViewController(withIdentifier: "OnboardingStep2View"),
-            storyBoard.instantiateViewController(withIdentifier: "OnboardingStep3View")
+            storyBoard.instantiateViewController(withIdentifier: "OnboardingStep3View"),
+            storyBoard.instantiateViewController(withIdentifier: "OnboardingStep4View")
         ]
     }
     

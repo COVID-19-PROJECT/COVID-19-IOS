@@ -10,6 +10,8 @@ import UIKit
 
 class OnboardingStep2ViewController: UIViewController {
 
+    @IBOutlet weak var buttonNext: Button!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         prepareUI()
@@ -18,5 +20,9 @@ class OnboardingStep2ViewController: UIViewController {
     private func prepareUI() {
         
     }
-
+    
+    @IBAction func buttonNextTap(_ sender: Any) {
+    
+    }
+    
 }
